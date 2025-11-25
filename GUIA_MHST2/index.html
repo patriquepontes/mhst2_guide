@@ -165,7 +165,7 @@
 
         th {
             background-color: var(--color-secondary);
-            color: white;
+            color: white !important;
             font-weight: bold;
             position: sticky;
             top: 0;
@@ -409,7 +409,7 @@
         }
 
         /* =========================================
-           MOBILE RESPONSIVENESS
+           MOBILE – TODAS AS LINHAS 100% + MODO ESCURO OK
            ========================================= */
         @media screen and (max-width: 768px) {
             .table-responsive thead {
@@ -424,46 +424,76 @@
             }
 
             .table-responsive tr {
-                margin-bottom: 15px;
+                margin-bottom: 20px;
                 border: 1px solid var(--color-border);
-                border-radius: 8px;
+                border-radius: 12px;
                 overflow: hidden;
+                background: var(--color-bg-light);
+                box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
             }
 
+            /* TODAS as células — 100% da largura */
             .table-responsive td {
-                display: block;
-                text-align: right !important;
-                padding-left: 50%;
-                position: relative;
-                border: none;
-                border-bottom: 1px solid var(--color-border);
+                display: block !important;
+                width: 100% !important;
+                padding: 15px 20px !important;
+                box-sizing: border-box;
+                border: none !important;
+                border-bottom: 1px solid var(--color-border) !important;
+                background: var(--color-bg-light);
+                text-align: left !important;
             }
 
-            .table-responsive td::before {
-                content: attr(data-label);
-                position: absolute;
-                left: 10px;
-                width: 45%;
-                text-align: left;
-                font-weight: bold;
-                color: var(--color-secondary);
+            /* Fundo alternado suave mantendo as variáveis do tema */
+            .table-responsive tr td:nth-child(even) {
+                background: rgba(0, 0, 0, 0.03);
+                /* claro */
             }
 
+            .dark-mode .table-responsive tr td:nth-child(even) {
+                background: rgba(255, 255, 255, 0.03);
+                /* escuro */
+            }
+
+            /* TÍTULO DO MONSTRO */
             .table-responsive td:first-child {
-                background-color: var(--color-secondary);
-                color: white;
-                text-align: center !important;
-                padding: 10px;
-                font-size: 1.1rem;
+                background: var(--color-secondary) !important;
+                color: white !important;
+                font-weight: bold;
+                font-size: 1.15rem;
+                padding: 18px 20px !important;
+                border-radius: 12px 12px 0 0 !important;
             }
 
             .table-responsive td:first-child::before {
-                content: none;
+                display: none !important;
             }
 
-            /* Ajustes finos para badges no mobile */
+            /* Label (ex: "Ataque Recomendado:") */
+            .table-responsive td::before {
+                content: attr(data-label);
+                display: block;
+                font-weight: bold;
+                color: var(--color-secondary);
+                margin-bottom: 5px;
+                font-size: 0.95rem;
+            }
+
+            /* Valor */
+            .table-responsive td {
+                color: var(--color-text);
+            }
+
+            /* Última linha */
+            .table-responsive td:last-child {
+                border-bottom: none !important;
+                border-radius: 0 0 12px 12px !important;
+            }
+
+            /* Badges */
             td[data-label="Ataque Recomendado"] .ataque {
-                margin-left: auto;
+                display: inline-block;
+                margin-top: 4px;
             }
         }
     </style>
