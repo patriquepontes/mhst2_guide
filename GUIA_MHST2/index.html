@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR" data-theme="light">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,17 +21,20 @@
             --color-note-bg: #fff9c4;
 
             /* Tipos de Ataque (Rock-Paper-Scissors) */
-            --color-forca: #d32f2f;   /* Vermelho */
-            --color-rapido: #1977d2;  /* Azul */
-            --color-tecnica: #388e3c; /* Verde */
-            
+            --color-forca: #d32f2f;
+            /* Vermelho */
+            --color-rapido: #1977d2;
+            /* Azul */
+            --color-tecnica: #388e3c;
+            /* Verde */
+
             /* Elementos */
-            --color-fogo: #ff6f00; 
-            --color-agua: #0288d1; 
-            --color-gelo: #81d4fa; 
-            --color-trovao: #fbc02d; 
+            --color-fogo: #ff6f00;
+            --color-agua: #0288d1;
+            --color-gelo: #81d4fa;
+            --color-trovao: #fbc02d;
             --color-dragao: #6a1b9a;
-            
+
             /* Status */
             --color-sleep: #6a1b9a;
             --color-poison: #880e4f;
@@ -41,13 +45,13 @@
 
         /* Dark Mode Overrides */
         :root[data-theme='dark'] {
-            --color-bg-dark: #121212; 
-            --color-bg-light: #1e1e1e; 
-            --color-header: #f0f0f0; 
-            --color-text: #e0e0e0; 
-            --color-border: #444; 
-            --color-secondary: #64b5f6; 
-            --color-note-bg: #403e2c; 
+            --color-bg-dark: #121212;
+            --color-bg-light: #1e1e1e;
+            --color-header: #f0f0f0;
+            --color-text: #e0e0e0;
+            --color-border: #444;
+            --color-secondary: #64b5f6;
+            --color-note-bg: #403e2c;
             --color-sleep: #b39ddb;
             --color-dragao: #b388ff;
         }
@@ -55,115 +59,255 @@
         /* =========================================
            GENERAL STYLES
            ========================================= */
-        body { 
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-            margin: 20px; 
-            background-color: var(--color-bg-dark); 
-            color: var(--color-text); 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 20px;
+            background-color: var(--color-bg-dark);
+            color: var(--color-text);
             transition: background-color 0.3s, color 0.3s;
         }
-        h1 { text-align: center; color: var(--color-primary); margin-bottom: 5px; }
-        h2 { 
-            color: var(--color-secondary); 
-            border-bottom: 3px solid var(--color-secondary); 
-            padding-bottom: 10px; 
-            margin-top: 40px; 
+
+        h1 {
+            text-align: center;
+            color: var(--color-primary);
+            margin-bottom: 5px;
+        }
+
+        h2 {
+            color: var(--color-secondary);
+            border-bottom: 3px solid var(--color-secondary);
+            padding-bottom: 10px;
+            margin-top: 40px;
             text-transform: uppercase;
             font-size: 1.4rem;
         }
-        hr { border-color: var(--color-border); margin: 30px 0; }
-        
+
+        hr {
+            border-color: var(--color-border);
+            margin: 30px 0;
+        }
+
         /* =========================================
            TABLE STYLES
            ========================================= */
-        .table-responsive { overflow-x: auto; width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); } 
-
-        table { 
-            border-collapse: separate; 
-            border-spacing: 0; 
-            width: 100%; 
-            background: var(--color-bg-light); 
+        .table-responsive {
+            overflow-x: auto;
+            width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
-        
-        th, td { 
-            border: 1px solid var(--color-border); 
-            padding: 12px 10px; 
-            text-align: left; 
-            vertical-align: middle; 
+
+        table {
+            border-collapse: separate;
+            border-spacing: 0;
+            width: 100%;
+            background: var(--color-bg-light);
+        }
+
+        th,
+        td {
+            border: 1px solid var(--color-border);
+            padding: 12px 10px;
+            text-align: left;
+            vertical-align: middle;
             font-size: 0.95rem;
-        } 
+        }
 
         /* Column Widths & Alignment */
-        th:nth-child(1), td:nth-child(1) { width: 18%; font-weight: bold; color: var(--color-header); } /* Monstro */
-        th:nth-child(2), td:nth-child(2) { width: 14%; text-align: center; } /* Ataque Rec */
-        th:nth-child(3), td:nth-child(3) { width: 20%; } /* Fúria */
-        th:nth-child(4), td:nth-child(4) { width: 18%; } /* Armas */
-        th:nth-child(5), td:nth-child(5) { width: 14%; text-align: center; } /* Status */
-        th:nth-child(6), td:nth-child(6) { width: 8%; text-align: center; } /* Elem 1 */
-        th:nth-child(7), td:nth-child(7) { width: 8%; text-align: center; } /* Elem 2 */
-
-        th { 
-            background-color: var(--color-secondary); 
-            color: white; 
-            font-weight: bold; 
-            position: sticky; 
-            top: 0; 
-            z-index: 10; 
+        th:nth-child(1),
+        td:nth-child(1) {
+            width: 18%;
+            font-weight: bold;
+            color: var(--color-header);
         }
-        
-        tr:nth-child(even) { background-color: var(--color-bg-dark); }
-        tr:hover { background-color: rgba(25, 118, 210, 0.1); }
+
+        /* Monstro */
+        th:nth-child(2),
+        td:nth-child(2) {
+            width: 14%;
+            text-align: center;
+        }
+
+        /* Ataque Rec */
+        th:nth-child(3),
+        td:nth-child(3) {
+            width: 20%;
+        }
+
+        /* Fúria */
+        th:nth-child(4),
+        td:nth-child(4) {
+            width: 18%;
+        }
+
+        /* Armas */
+        th:nth-child(5),
+        td:nth-child(5) {
+            width: 14%;
+            text-align: center;
+        }
+
+        /* Status */
+        th:nth-child(6),
+        td:nth-child(6) {
+            width: 8%;
+            text-align: center;
+        }
+
+        /* Elem 1 */
+        th:nth-child(7),
+        td:nth-child(7) {
+            width: 8%;
+            text-align: center;
+        }
+
+        /* Elem 2 */
+
+        th {
+            background-color: var(--color-secondary);
+            color: white;
+            font-weight: bold;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        tr:nth-child(even) {
+            background-color: var(--color-bg-dark);
+        }
+
+        tr:hover {
+            background-color: rgba(25, 118, 210, 0.1);
+        }
 
         /* =========================================
            BADGES & ICONS
            ========================================= */
-        .ataque, .elemento, .status-ailment { 
-            font-weight: bold; 
-            display: inline-flex; 
-            align-items: center; 
+        .ataque,
+        .elemento,
+        .status-ailment {
+            font-weight: bold;
+            display: inline-flex;
+            align-items: center;
             padding: 4px 8px;
             border-radius: 4px;
             white-space: nowrap;
             margin: 2px;
             font-size: 0.9rem;
-            background: rgba(0,0,0,0.05);
+            background: rgba(0, 0, 0, 0.05);
         }
 
         /* Ataques */
-        .forca { color: var(--color-forca); border: 1px solid var(--color-forca); } 
-        .rapido { color: var(--color-rapido); border: 1px solid var(--color-rapido); } 
-        .tecnica { color: var(--color-tecnica); border: 1px solid var(--color-tecnica); } 
-        
+        .forca {
+            color: var(--color-forca);
+            border: 1px solid var(--color-forca);
+        }
+
+        .rapido {
+            color: var(--color-rapido);
+            border: 1px solid var(--color-rapido);
+        }
+
+        .tecnica {
+            color: var(--color-tecnica);
+            border: 1px solid var(--color-tecnica);
+        }
+
         /* Ícones (Pseudo-elements) */
-        .icone-forca::before { content: "🔴 "; }
-        .icone-rapido::before { content: "🔵 "; }
-        .icone-tecnica::before { content: "🟢 "; }
-        
+        .icone-forca::before {
+            content: "🔴 ";
+        }
+
+        .icone-rapido::before {
+            content: "🔵 ";
+        }
+
+        .icone-tecnica::before {
+            content: "🟢 ";
+        }
+
         /* Status */
-        .status-sleep { color: var(--color-sleep); }
-        .status-poison { color: var(--color-poison); }
-        .status-blast { color: var(--color-blast); }
-        .status-paralysis { color: var(--color-paralysis); }
-        .icone-sleep::before { content: "💤 "; }
-        .icone-poison::before { content: "☠️ "; }
-        .icone-blast::before { content: "💥 "; }
-        .icone-paralysis::before { content: "⚡ "; }
+        .status-sleep {
+            color: var(--color-sleep);
+        }
+
+        .status-poison {
+            color: var(--color-poison);
+        }
+
+        .status-blast {
+            color: var(--color-blast);
+        }
+
+        .status-paralysis {
+            color: var(--color-paralysis);
+        }
+
+        .icone-sleep::before {
+            content: "💤 ";
+        }
+
+        .icone-poison::before {
+            content: "☠️ ";
+        }
+
+        .icone-blast::before {
+            content: "💥 ";
+        }
+
+        .icone-paralysis::before {
+            content: "⚡ ";
+        }
 
         /* Elementos */
-        .elemento-fogo { color: var(--color-fogo); } 
-        .elemento-agua { color: var(--color-agua); } 
-        .elemento-gelo { color: var(--color-gelo); } 
-        .elemento-trovao { color: var(--color-trovao); } 
-        .elemento-dragao { color: var(--color-dragao); } 
-        .icone-fogo::before { content: "🔥 "; }
-        .icone-agua::before { content: "💧 "; }
-        .icone-gelo::before { content: "❄️ "; }
-        .icone-trovao::before { content: "⚡️ "; }
-        .icone-dragao::before { content: "🐉 "; } 
+        .elemento-fogo {
+            color: var(--color-fogo);
+        }
+
+        .elemento-agua {
+            color: var(--color-agua);
+        }
+
+        .elemento-gelo {
+            color: var(--color-gelo);
+        }
+
+        .elemento-trovao {
+            color: var(--color-trovao);
+        }
+
+        .elemento-dragao {
+            color: var(--color-dragao);
+        }
+
+        .icone-fogo::before {
+            content: "🔥 ";
+        }
+
+        .icone-agua::before {
+            content: "💧 ";
+        }
+
+        .icone-gelo::before {
+            content: "❄️ ";
+        }
+
+        .icone-trovao::before {
+            content: "⚡️ ";
+        }
+
+        .icone-dragao::before {
+            content: "🐉 ";
+        }
 
         /* Utilitários */
-        .imune-status, .no-fraqueza { color: #999; font-style: italic; font-size: 0.85rem; }
-        
+        .imune-status,
+        .no-fraqueza {
+            color: #999;
+            font-style: italic;
+            font-size: 0.85rem;
+        }
+
         .action-cue {
             display: block;
             margin-top: 4px;
@@ -186,26 +330,46 @@
             padding: 15px;
             background-color: var(--color-bg-light);
             border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
             border: 1px solid var(--color-border);
         }
 
-        #monster-search { flex-grow: 1; padding: 10px; border: 2px solid var(--color-secondary); border-radius: 5px; background: var(--color-bg-dark); color: var(--color-text); }
-        #region-filter { min-width: 200px; padding: 10px; border: 2px solid var(--color-secondary); border-radius: 5px; background: var(--color-bg-dark); color: var(--color-text); }
-        
-        #theme-toggle {
-            position: fixed; top: 15px; right: 15px;
-            padding: 8px 12px;
-            background-color: var(--color-secondary);
-            color: white; border: none; border-radius: 5px;
-            cursor: pointer; z-index: 1000;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+        #monster-search {
+            flex-grow: 1;
+            padding: 10px;
+            border: 2px solid var(--color-secondary);
+            border-radius: 5px;
+            background: var(--color-bg-dark);
+            color: var(--color-text);
         }
 
-        .regiao-note { 
-            background-color: var(--color-note-bg); 
-            padding: 15px; 
-            border-radius: 8px; 
+        #region-filter {
+            min-width: 200px;
+            padding: 10px;
+            border: 2px solid var(--color-secondary);
+            border-radius: 5px;
+            background: var(--color-bg-dark);
+            color: var(--color-text);
+        }
+
+        #theme-toggle {
+            position: fixed;
+            top: 15px;
+            right: 15px;
+            padding: 8px 12px;
+            background-color: var(--color-secondary);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .regiao-note {
+            background-color: var(--color-note-bg);
+            padding: 15px;
+            border-radius: 8px;
             border-left: 5px solid var(--color-primary);
             margin-bottom: 30px;
             color: var(--color-header);
@@ -215,23 +379,41 @@
            MOBILE RESPONSIVENESS
            ========================================= */
         @media screen and (max-width: 768px) {
-            .table-responsive thead { display: none; }
-            .table-responsive table, .table-responsive tbody, .table-responsive tr { display: block; width: 100%; }
-            .table-responsive tr { margin-bottom: 15px; border: 1px solid var(--color-border); border-radius: 8px; overflow: hidden; }
-            
-            .table-responsive td { 
-                display: block; 
-                text-align: right !important; 
-                padding-left: 50%; 
-                position: relative; 
+            .table-responsive thead {
+                display: none;
+            }
+
+            .table-responsive table,
+            .table-responsive tbody,
+            .table-responsive tr {
+                display: block;
+                width: 100%;
+            }
+
+            .table-responsive tr {
+                margin-bottom: 15px;
+                border: 1px solid var(--color-border);
+                border-radius: 8px;
+                overflow: hidden;
+            }
+
+            .table-responsive td {
+                display: block;
+                text-align: right !important;
+                padding-left: 50%;
+                position: relative;
                 border: none;
                 border-bottom: 1px solid var(--color-border);
             }
-            
+
             .table-responsive td::before {
                 content: attr(data-label);
-                position: absolute; left: 10px; width: 45%;
-                text-align: left; font-weight: bold; color: var(--color-secondary);
+                position: absolute;
+                left: 10px;
+                width: 45%;
+                text-align: left;
+                font-weight: bold;
+                color: var(--color-secondary);
             }
 
             .table-responsive td:first-child {
@@ -241,27 +423,28 @@
                 padding: 10px;
                 font-size: 1.1rem;
             }
-            .table-responsive td:first-child::before { content: none; }
-            
+
+            .table-responsive td:first-child::before {
+                content: none;
+            }
+
             /* Ajustes finos para badges no mobile */
-            td[data-label="Ataque Recomendado"] .ataque { margin-left: auto; }
+            td[data-label="Ataque Recomendado"] .ataque {
+                margin-left: auto;
+            }
         }
     </style>
 </head>
+
 <body>
 
     <button id="theme-toggle" onclick="toggleTheme()">🌙 Modo Escuro</button>
 
     <h1>🗡️ Guia Definitivo MHST2: Wings of Ruin</h1>
-    
-    <div class="regiao-note">
-        <strong>⚠️ REGRA DE OURO (COUNTER):</strong> A coluna <em>"Ataque Recomendado"</em> indica o botão que <strong>VOCÊ (JOGADOR)</strong> deve apertar para vencer o monstro.
-        <br>Exemplo: Se o ícone é <span class="ataque icone-tecnica tecnica">Técnica</span>, o monstro está usando Velocidade.
-    </div>
-
+    <div><br></div>
     <div class="controls-container">
         <input type="text" id="monster-search" placeholder="🔍 Pesquisar Monstro..." onkeyup="filterMonsters()">
-        
+
         <select id="region-filter" onchange="filterRegions()">
             <option value="all">Todas as Regiões</option>
             <option value="hakolo">1. Ilha Hakolo (Início)</option>
@@ -322,7 +505,8 @@
                     <td data-label="Fúria / Estados"><span class="no-fraqueza">—</span></td>
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Corpo)</td>
                     <td data-label="Status / Itens"><span class="status-sleep icone-sleep">Sono</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -332,7 +516,8 @@
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Corpo)</td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Konchu (Amarelo)</td>
@@ -355,7 +540,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Nenhum</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-agua icone-agua">Água</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Velocidrome</td>
@@ -366,7 +552,8 @@
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Cabeça)</td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Yian Kut-Ku</td>
@@ -392,7 +579,8 @@
                     </td>
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Corpo)</td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -412,7 +600,7 @@
             </tbody>
         </table>
     </div>
-<hr>
+    <hr>
 
     <h2 id="region-alcala">⛰️ 2. Alcala</h2>
     <div class="table-responsive region-content" data-region="alcala">
@@ -451,7 +639,8 @@
                         <strong>Cortante</strong> (Cauda)
                     </td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
                 </tr>
                 <tr>
@@ -466,7 +655,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Qurupeco</td>
@@ -509,7 +699,8 @@
                         <span class="action-cue">Bomba de Luz (No Ar)</span>
                     </td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Basarios</td>
@@ -524,7 +715,8 @@
                     <td data-label="Status / Itens">
                         <span class="action-cue">Barril Explosivo (Camuflado)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-agua icone-agua">Água</span></td>
                 </tr>
                 <tr>
@@ -539,7 +731,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-agua icone-agua">Água</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Nargacuga</td>
@@ -554,7 +747,8 @@
                     <td data-label="Status / Itens">
                         <span class="action-cue">Bomba Sônica (Postura)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -568,8 +762,10 @@
                         <strong>Contundente</strong> (Cabeça)
                     </td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Tigrex (Real)</td>
@@ -584,8 +780,10 @@
                     <td data-label="Status / Itens">
                         <span class="action-cue">Armadilha de Choque (Fúria)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Monoblos (Real)</td>
@@ -601,13 +799,14 @@
                         <span class="status-paralysis icone-paralysis">Paralisia</span>
                         <span class="action-cue">Bomba Sônica (Subterrâneo)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
                 </tr>
             </tbody>
         </table>
     </div>
-	<hr>
+    <hr>
 
     <h2 id="region-loloska">❄️ 3. Loloska</h2>
     <div class="table-responsive region-content" data-region="loloska">
@@ -640,7 +839,8 @@
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Corpo)</td>
                     <td data-label="Status / Itens"><span class="imune-status">Nenhum</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Lagombi</td>
@@ -656,7 +856,8 @@
                         <span class="action-cue">Bomba Sônica</span>
                     </td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Zamtrios</td>
@@ -673,7 +874,8 @@
                         <span class="status-poison icone-poison">Veneno</span>
                         <span class="action-cue">Bomba Sônica (Mergulho)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -749,7 +951,8 @@
                         <span class="action-cue">Bomba de Luz (Voando)</span>
                     </td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Legiana</td>
@@ -765,7 +968,8 @@
                         <span class="status-poison icone-poison">Veneno</span>
                         <span class="action-cue">Bomba de Luz (Voando)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -794,7 +998,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Nenhum</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Zinogre (Real)</td>
@@ -813,7 +1018,7 @@
             </tbody>
         </table>
     </div>
-<hr>
+    <hr>
 
     <h2 id="region-lamure">🌵 4. Lamure (Deserto)</h2>
     <div class="table-responsive region-content" data-region="lamure">
@@ -837,7 +1042,8 @@
                     <td data-label="Melhores Armas"><strong>Contundente</strong> (Corpo)</td>
                     <td data-label="Status / Itens"><span class="imune-status">Nenhum</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Genprey</td>
@@ -866,7 +1072,8 @@
                     <td data-label="Melhores Armas"><strong>Contundente</strong> (Corpo)</td>
                     <td data-label="Status / Itens"><span class="action-cue">Bomba Sônica</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Cephadrome</td>
@@ -883,7 +1090,8 @@
                         <span class="action-cue">Bomba Sônica</span>
                     </td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Daimyo Hermitaur</td>
@@ -897,7 +1105,8 @@
                         <strong>Perfurante</strong> (Corpo)
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Resistente</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -914,7 +1123,8 @@
                         <span class="status-sleep icone-sleep">Sono</span>
                         <span class="action-cue">Bomba Sônica (Na água)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -931,7 +1141,8 @@
                         <span class="status-paralysis icone-paralysis">Paralisia</span>
                         <span class="action-cue">Bomba Sônica (Na água)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -981,7 +1192,8 @@
                     <td data-label="Status / Itens">
                         <span class="action-cue">Bomba Sônica (Subterrâneo)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
                 </tr>
                 <tr>
@@ -996,12 +1208,13 @@
                     </td>
                     <td data-label="Status / Itens"><span class="status-blast icone-blast">Explosão</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
-<hr>
+    <hr>
 
     <h2 id="region-terga">🌋 5. Terga (Vulcão)</h2>
     <div class="table-responsive region-content" data-region="terga">
@@ -1035,7 +1248,8 @@
                     </td>
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Cabeça)</td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-agua icone-agua">Água</span></td>
                 </tr>
                 <tr>
@@ -1081,7 +1295,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="status-sleep icone-sleep">Sono</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-agua icone-agua">Água</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Black Gravios</td>
@@ -1095,7 +1310,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="status-poison icone-poison">Veneno</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-agua icone-agua">Água</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Uragaan</td>
@@ -1112,7 +1328,8 @@
                         <span class="action-cue">Bomba de Luz (Gás)</span>
                     </td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-agua icone-agua">Água</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Brachydios</td>
@@ -1167,8 +1384,10 @@
                         <strong>Cortante</strong> (Cauda)
                     </td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Nergigante (Boss)</td>
@@ -1182,13 +1401,15 @@
                         <strong>Cortante</strong> (Cauda)
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Imune a Armadilhas</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
-<hr>
+    <hr>
 
     <h2 id="region-hr">👑 6. High Rank &amp; Elders</h2>
     <div class="table-responsive region-content" data-region="hr">
@@ -1213,8 +1434,10 @@
                     </td>
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Cauda)</td>
                     <td data-label="Status / Itens"><span class="status-paralysis icone-paralysis">Paralisia</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Azure Rathalos</td>
@@ -1224,7 +1447,8 @@
                     </td>
                     <td data-label="Melhores Armas"><strong>Cortante</strong> (Cauda/Asas)</td>
                     <td data-label="Status / Itens"><span class="action-cue">Bomba de Luz (Voando)</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
                 </tr>
                 <tr>
@@ -1241,8 +1465,10 @@
                         <span class="status-sleep icone-sleep">Sono</span>
                         <span class="action-cue">Carne de Sono/Paralisia</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Bazelgeuse</td>
@@ -1255,7 +1481,8 @@
                         <strong>Contundente</strong> (Cabeça)
                     </td>
                     <td data-label="Status / Itens"><span class="status-sleep icone-sleep">Sono</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-gelo icone-gelo">Gelo</span></td>
                 </tr>
                 <tr>
@@ -1270,7 +1497,8 @@
                     </td>
                     <td data-label="Status / Itens"><span class="action-cue">Bomba de Luz (Voando)</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-agua icone-agua">Água</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Gold Rathian</td>
@@ -1283,7 +1511,8 @@
                         <strong>Contundente</strong> (Cabeça)
                     </td>
                     <td data-label="Status / Itens"><span class="action-cue">Bomba de Luz (Voando)</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-agua icone-agua">Água</span></td>
                 </tr>
                 <tr>
@@ -1297,8 +1526,10 @@
                         <strong>Cortante</strong> (Cauda)
                     </td>
                     <td data-label="Status / Itens"><span class="status-sleep icone-sleep">Sono</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Thunderlord Zinogre</td>
@@ -1370,7 +1601,8 @@
                         <span class="status-poison icone-poison">Veneno</span>
                         <span class="action-cue">Bomba de Luz (Voando)</span>
                     </td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                     <td data-label="Fraq. Secundária"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
                 </tr>
                 <tr>
@@ -1399,27 +1631,30 @@
                     </td>
                     <td data-label="Status / Itens"><span class="status-blast icone-blast">Explosão</span></td>
                     <td data-label="Fraq. Principal"><span class="elemento elemento-fogo icone-fogo">Fogo</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
                 </tr>
-                 <tr>
+                <tr>
                     <td data-label="Monstro">Nergigante</td>
                     <td data-label="Ataque Recomendado"><span class="ataque icone-forca forca">Força</span></td>
                     <td data-label="Fúria / Estados">
                         <span class="ataque icone-rapido rapido">Rápido</span> (Espinhos Brancos)<br>
-                         <span class="ataque icone-tecnica tecnica">Técnica</span> (Fúria)
+                        <span class="ataque icone-tecnica tecnica">Técnica</span> (Fúria)
                     </td>
                     <td data-label="Melhores Armas">
                         <strong>Contundente</strong> (Espinhos)<br>
                         <strong>Cortante</strong> (Cauda)
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Imune a Armadilhas</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span></td>
-                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-trovao icone-trovao">Trovão</span>
+                    </td>
+                    <td data-label="Fraq. Secundária"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
-<hr>
+    <hr>
 
     <h2 id="region-oltura">🌌 7. Chefe Final: Oltura</h2>
     <div class="table-responsive region-content" data-region="oltura">
@@ -1446,7 +1681,8 @@
                         <strong>Perfurante</strong> (Asas)
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Imune a Status</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Oltura (Fase 2 - 4 Asas)</td>
@@ -1459,7 +1695,8 @@
                         <strong>Perfurante</strong> (Asas)
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Imune a Status</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
                 <tr>
                     <td data-label="Monstro">Oltura (Fase 3 - 6 Asas)</td>
@@ -1472,12 +1709,13 @@
                         <strong>Perfurante</strong> (Asas Radiantes)
                     </td>
                     <td data-label="Status / Itens"><span class="imune-status">Imune a Status</span></td>
-                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span></td>
+                    <td data-label="Fraq. Principal"><span class="elemento elemento-dragao icone-dragao">Dragão</span>
+                    </td>
                 </tr>
             </tbody>
         </table>
     </div>
-    
+
     <hr>
     <p style="text-align: center; color: var(--color-text); margin-top: 50px;">
         <em>Guia atualizado para Monster Hunter Stories 2: Wings of Ruin - Boa Caçada!</em>
@@ -1489,9 +1727,9 @@
         const htmlElement = document.documentElement;
 
         // Verifica preferência salva ou do sistema
-        const savedTheme = localStorage.getItem('theme') || 
-                           (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
-        
+        const savedTheme = localStorage.getItem('theme') ||
+            (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+
         if (savedTheme === 'dark') {
             htmlElement.setAttribute('data-theme', 'dark');
             themeToggle.textContent = '☀️ Modo Claro';
@@ -1521,16 +1759,16 @@
 
             regionContainers.forEach(container => {
                 const regionName = container.getAttribute('data-region');
-                
+
                 // Lógica: Mostrar se a região for 'all' OU corresponder à seleção
                 const isRegionMatch = selectedRegion === 'all' || selectedRegion === regionName;
-                
+
                 let hasVisibleRows = false;
                 const rows = container.querySelectorAll('tbody tr');
 
                 rows.forEach(row => {
                     const monsterName = row.querySelector('td:first-child').textContent.toLowerCase();
-                    
+
                     // Lógica: Mostrar se o nome bater com a pesquisa E a região for válida
                     if (isRegionMatch && monsterName.includes(searchTerm)) {
                         row.style.display = '';
@@ -1544,10 +1782,10 @@
                 const header = document.getElementById('region-' + regionName);
                 if (hasVisibleRows) {
                     container.style.display = 'block';
-                    if(header) header.style.display = 'block';
+                    if (header) header.style.display = 'block';
                 } else {
                     container.style.display = 'none';
-                    if(header) header.style.display = 'none';
+                    if (header) header.style.display = 'none';
                 }
             });
         }
@@ -1557,4 +1795,5 @@
         }
     </script>
 </body>
+
 </html>
