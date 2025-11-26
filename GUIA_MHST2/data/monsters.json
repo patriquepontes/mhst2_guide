@@ -1,0 +1,4585 @@
+[
+  {
+    "name": "Agnaktor",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Altaroth",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Anjanath",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Apceros",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Aptonote",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Arzuros",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Kecha Wacha",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Astalos",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Rathalos",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+  {
+    "name": "Baggi",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Barioth",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Felyno no Barril",
+    "region": "Qualquer área",
+    "attackStates": [],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": []
+  },
+  {
+    "name": "Barroth",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Água"
+  },
+  {
+    "name": "Basarios",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Bazelgeuse",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Diablos",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Gravios Tétrico",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Diablos Carnificina",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Yian Kut-Ku",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Bnahabra (Azul)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra (Marrom)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra (Verde)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra (Vermelho)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Astalos Ceifarraios",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Brachydios",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Tigrex",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Bulldrome",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Bullfango",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Cephadrome",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Cephalos",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Conga",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Congalala",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Qurupeco",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Hermitauro",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Rainha Seltas do Deserto",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Deviljho",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ],
+    "rideType": "Dragão"
+  },
+  {
+    "name": "Diablos Negra",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Rathalos Maldito",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão/Enfurecido",
+        "type": "Rápido"
+      },
+            {
+        "state": "Voando",
+        "type": "Técnica"
+      },
+      {
+        "state": "Voando/Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+  {
+    "name": "Rathian Maldita",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+    {
+    "name": "Rathian Dourada",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Duramboros",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Gammoth Glaciarcaico",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Congalala Esmeralda",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Anjanath Fulgurante",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Gammoth",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Gargwa",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Gendrome",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Genprey",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Agnaktor Glacial",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Glavenus",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Rathian",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Gravios",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Grande Baggi",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Bicho-Dragófago Grande",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Grande Jaggi",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Grande Insetrovão",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Nargacuga",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Plesioth",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Tigrex Ceifagarra",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Gypceros",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Glavenus Flâmina",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Hermitauro Daimyo",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Iodrome",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Ioprey",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Lagiacrus",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Barroth de Jade",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Jaggi",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Jaggia",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Kecha Wacha Cinzento",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Água"
+  },
+  {
+    "name": "Kelbi",
+    "region": "Hakolo Island",
+    "attackStates": [],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": []
+  },
+  {
+    "name": "Khezu",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Kirin",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Azul)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Verde)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Amarelo)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Vermelho)",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Kulu-Ya-Ku",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Kulve Taroth",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Kushala Daora",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Lagiacrus Marfim",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Lagombi",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Larinoth",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Legiana",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Ludroth",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Mizutsune",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Água"
+  },
+  {
+    "name": "Tigrex Ardente",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Monoblos",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Nargacuga Verde",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Nergigante",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Nerscylla",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Oroshi Kirin",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Palamute (Dragão)",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Fogo)",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Gelo)",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Normal)",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Trovão)",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Água)",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+  {
+    "name": "Paolumu",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Rathian Rosa",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+  {
+    "name": "Plesioth Verde",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Hermitauro Daimyo Ameixa",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Pôpo",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Pukei-Pukei",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Gypceros Roxo",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Ludroth Roxo",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Água"
+  },
+  {
+    "name": "Qurupeco Rubro",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Rajang",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Ratha",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Rathi",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Khezu Rubro",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      },
+      {
+        "state": "Carregado",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Remobra",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Dragão"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ]
+  },
+  {
+    "name": "Ludroth Real",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ],
+    "rideType": "Água"
+  },
+  {
+    "name": "Basarios Rubi",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Barioth de Areia",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Seltas",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Rainha Seltas",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Seregios",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Shakalaka",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Nerscylla Sombria",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Rathalos Prateado",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão/Enfurecido",
+        "type": "Rápido"
+      },
+      {
+        "state": "Voando",
+        "type": "Técnica"
+      },
+      {
+        "state": "Voando/Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Nargacuga Argentasa",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Slagtoth (Marrom)",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Slagtoth (Verde)",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Mizutsune Vatealma",
+    "region": "Lamure",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Água"
+  },
+  {
+    "name": "Zinogre Tenebroso",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Dragão"
+  },
+  {
+    "name": "Teostra",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Tetsucabra",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Zinogre Feralâmpago",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Carregado",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Tigrex Bruto",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+  {
+    "name": "Uragaan",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Uroktor",
+    "region": "Terga",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ]
+  },
+  {
+    "name": "Velkhana",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Velocídrome",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Velociprey",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ]
+  },
+  {
+    "name": "Vespoidea",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Fogo"
+      },
+      {
+        "phase": 2,
+        "element": "Fogo"
+      },
+      {
+        "phase": 3,
+        "element": "Fogo"
+      }
+    ]
+  },
+  {
+    "name": "Monoblos Branco",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Rápido"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Não-elemental"
+  },
+  {
+    "name": "Yian Garuga",
+    "region": "Alcala",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Água"
+      },
+      {
+        "phase": 2,
+        "element": "Água"
+      },
+      {
+        "phase": 3,
+        "element": "Água"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Yian Kut-Ku Azul",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Fogo"
+  },
+  {
+    "name": "Zamites",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ]
+  },
+  {
+    "name": "Zamtrios",
+    "region": "Loloska",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Trovão"
+      },
+      {
+        "phase": 2,
+        "element": "Trovão"
+      },
+      {
+        "phase": 3,
+        "element": "Trovão"
+      }
+    ],
+    "rideType": "Gelo"
+  },
+  {
+    "name": "Zinogre",
+    "region": "Hakolo Island",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Técnica"
+      },
+      {
+        "state": "Carregado",
+        "type": "Força"
+      },
+      {
+        "state": "Super Carregado",
+        "type": "Rápido"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Gelo"
+      },
+      {
+        "phase": 3,
+        "element": "Gelo"
+      }
+    ],
+    "rideType": "Trovão"
+  },
+    {
+    "name": "Oltura",
+    "region": "Qualquer área",
+    "attackStates": [
+      {
+        "state": "Padrão",
+        "type": "Força"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Rápido"
+      },
+      {
+        "state": "4 Asas",
+        "type": "Técnica"
+      },
+      {
+        "state": "4 Asas/Enfurecido",
+        "type": "Força"
+      },
+      {
+        "state": "6 Asas",
+        "type": "Rápido"
+      },
+      {
+        "state": "6 Asas/Enfurecido",
+        "type": "Técnica"
+      }
+    ],
+    "breakParts": {
+      "default": "Cortante",
+      "body": "Cortante",
+      "head": "Cortante",
+      "tail": "Cortante"
+    },
+    "weaknesses": [
+      {
+        "phase": 1,
+        "element": "Gelo"
+      },
+      {
+        "phase": 2,
+        "element": "Dragão"
+      },
+      {
+        "phase": 3,
+        "element": "Dragão"
+      }
+    ],
+    "rideType": "Dragão"
+  }
+]
