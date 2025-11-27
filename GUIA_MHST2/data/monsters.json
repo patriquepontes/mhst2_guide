@@ -7,32 +7,15 @@
         "state": "Padrão",
         "type": "Técnica"
       },
+            {
+        "state": "Após Gancho de Lava",
+        "type": "Rápido"
+      },
       {
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Altaroth",
@@ -41,23 +24,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -73,28 +39,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Apceros",
@@ -104,25 +49,7 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Aptonote",
@@ -132,25 +59,7 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Arzuros",
@@ -164,28 +73,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Kecha Wacha",
@@ -199,28 +87,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Astalos",
@@ -229,29 +96,16 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
       },
       {
-        "phase": 2,
-        "element": "Gelo"
+        "state": "Carregado",
+        "type": "Rápido"
       },
       {
-        "phase": 3,
-        "element": "Gelo"
+        "state": "Voando",
+        "type": "Técnica"
       }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Rathalos",
@@ -260,26 +114,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
       }
     ]
   },
@@ -290,23 +124,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -322,40 +139,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Gelo"
-  },
-  {
-    "name": "Felyno no Barril",
-    "region": "Qualquer área",
-    "attackStates": [],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": []
+    ]
   },
   {
     "name": "Barroth",
@@ -364,29 +148,12 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
       },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
+            {
+        "state": "Coberto de Lama",
+        "type": "Força"
       }
-    ],
-    "rideType": "Água"
+    ]
   },
   {
     "name": "Basarios",
@@ -400,32 +167,11 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Bazelgeuse",
-    "region": "Hakolo Island",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -435,28 +181,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Diablos",
@@ -470,28 +195,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Gravios Tétrico",
@@ -505,32 +209,11 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Diablos Carnificina",
-    "region": "Lamure",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -539,26 +222,6 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
       }
     ]
   },
@@ -574,28 +237,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Bnahabra (Azul)",
@@ -604,23 +246,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -632,23 +257,6 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
     ]
   },
   {
@@ -658,23 +266,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -686,23 +277,6 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
     ]
   },
   {
@@ -712,29 +286,16 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
       },
       {
-        "phase": 2,
-        "element": "Gelo"
+        "state": "1º Pouso",
+        "type": "Rápido"
       },
       {
-        "phase": 3,
-        "element": "Gelo"
+        "state": "2º Pouso",
+        "type": "Técnica"
       }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Brachydios",
@@ -748,28 +309,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Tigrex",
@@ -777,34 +317,13 @@
     "attackStates": [
       {
         "state": "Padrão",
-        "type": "Rápido"
+        "type": "Técnica"
       },
       {
         "state": "Enfurecido",
-        "type": "Técnica"
+        "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Bulldrome",
@@ -818,25 +337,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Bullfango",
@@ -845,23 +346,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -877,28 +361,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Cephalos",
@@ -907,23 +370,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
       }
     ]
   },
@@ -934,23 +380,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -966,28 +395,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Qurupeco",
@@ -1001,28 +409,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Hermitauro",
@@ -1031,23 +418,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -1063,26 +433,6 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
     ]
   },
   {
@@ -1097,28 +447,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
-      }
-    ],
-    "rideType": "Dragão"
+    ]
   },
   {
     "name": "Diablos Negra",
@@ -1132,38 +461,17 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Rathalos Maldito",
-    "region": "Hakolo Island",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão/Enfurecido",
         "type": "Rápido"
       },
-            {
+      {
         "state": "Voando",
         "type": "Técnica"
       },
@@ -1171,31 +479,11 @@
         "state": "Voando/Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
-      }
     ]
   },
   {
     "name": "Rathian Maldita",
-    "region": "Alcala",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -1205,31 +493,11 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
-      }
     ]
   },
-    {
+  {
     "name": "Rathian Dourada",
-    "region": "Alcala",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -1238,26 +506,6 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -1273,58 +521,17 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
     ]
   },
   {
     "name": "Gammoth Glaciarcaico",
-    "region": "Loloska",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Congalala Esmeralda",
@@ -1338,28 +545,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Anjanath Fulgurante",
@@ -1373,26 +559,6 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
     ]
   },
   {
@@ -1403,28 +569,7 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Gargwa",
@@ -1433,23 +578,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -1465,23 +593,6 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
     ]
   },
   {
@@ -1491,23 +602,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
       }
     ]
   },
@@ -1519,29 +613,13 @@
         "state": "Padrão",
         "type": "Rápido"
       },
+            {
+        "state": "Sem Arm. de Gelo",
+        "type": "Força"
+      },
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -1552,26 +630,14 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
       },
-      {
-        "phase": 2,
-        "element": "Água"
+            {
+        "state": "Após Brasa",
+        "type": "Técnica"
       },
-      {
-        "phase": 3,
-        "element": "Água"
+            {
+        "state": "Após Chakram de Fogo",
+        "type": "Força"
       }
     ]
   },
@@ -1587,28 +653,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Gravios",
@@ -1622,28 +667,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Grande Baggi",
@@ -1657,25 +681,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Bicho-Dragófago Grande",
@@ -1684,23 +690,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -1716,25 +705,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Grande Insetrovão",
@@ -1743,23 +714,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
       }
     ]
   },
@@ -1775,28 +729,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Plesioth",
@@ -1810,31 +743,11 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
     ]
   },
   {
     "name": "Tigrex Ceifagarra",
-    "region": "Alcala",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -1843,26 +756,6 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -1878,32 +771,11 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Glavenus Flâmina",
-    "region": "Alcala",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -1913,28 +785,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Hermitauro Daimyo",
@@ -1943,23 +794,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -1975,25 +809,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Ioprey",
@@ -2002,23 +818,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
       }
     ]
   },
@@ -2033,29 +832,12 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
       },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
+            {
+        "state": "Carregado",
+        "type": "Rápido"
       }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Barroth de Jade",
@@ -2068,29 +850,12 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
       },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
+            {
+        "state": "Coberto de Neve",
+        "type": "Rápido"
       }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Jaggi",
@@ -2099,23 +864,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -2126,23 +874,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -2158,40 +889,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Água"
-  },
-  {
-    "name": "Kelbi",
-    "region": "Hakolo Island",
-    "attackStates": [],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": []
+    ]
   },
   {
     "name": "Khezu",
@@ -2205,28 +903,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Kirin",
@@ -2240,26 +917,6 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
     ]
   },
   {
@@ -2269,23 +926,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -2297,23 +937,6 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
     ]
   },
   {
@@ -2323,23 +946,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -2351,23 +957,6 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
     ]
   },
   {
@@ -2378,32 +967,11 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Kulve Taroth",
-    "region": "Qualquer área",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -2412,26 +980,6 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -2446,26 +994,10 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
       },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
+            {
+        "state": "Voando",
+        "type": "Técnica"
       }
     ]
   },
@@ -2480,29 +1012,12 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
       },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
+            {
+        "state": "Carregado",
+        "type": "Força"
       }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Lagombi",
@@ -2516,28 +1031,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Larinoth",
@@ -2546,23 +1040,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
       }
     ]
   },
@@ -2578,28 +1055,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Ludroth",
@@ -2608,23 +1064,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -2640,28 +1079,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Água"
+    ]
   },
   {
     "name": "Tigrex Ardente",
@@ -2674,29 +1092,12 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
       },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
+            {
+        "state": "Detonação",
+        "type": "Força"
       }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Monoblos",
@@ -2710,28 +1111,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Nargacuga Verde",
@@ -2743,34 +1123,13 @@
       },
       {
         "state": "Enfurecido",
-        "type": "Força"
+        "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Nergigante",
-    "region": "Terga",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -2779,26 +1138,10 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
       },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
+            {
+        "state": "Espinhos Brancos",
+        "type": "Rápido"
       }
     ]
   },
@@ -2814,32 +1157,11 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Oroshi Kirin",
-    "region": "Loloska",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -2848,207 +1170,10 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
       },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Gelo"
-  },
-  {
-    "name": "Palamute (Dragão)",
-    "region": "Qualquer área",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ]
-  },
-  {
-    "name": "Palamute (Fogo)",
-    "region": "Qualquer área",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ]
-  },
-  {
-    "name": "Palamute (Gelo)",
-    "region": "Qualquer área",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ]
-  },
-  {
-    "name": "Palamute (Normal)",
-    "region": "Qualquer área",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
-      }
-    ]
-  },
-  {
-    "name": "Palamute (Trovão)",
-    "region": "Qualquer área",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ]
-  },
-  {
-    "name": "Palamute (Água)",
-    "region": "Qualquer área",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
+           {
+        "state": "Aura de Gelo",
+        "type": "Força"
       }
     ]
   },
@@ -3060,28 +1185,7 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Rathian Rosa",
@@ -3094,26 +1198,6 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
       }
     ]
   },
@@ -3129,26 +1213,6 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
     ]
   },
   {
@@ -3163,26 +1227,6 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
     ]
   },
   {
@@ -3193,25 +1237,7 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Pukei-Pukei",
@@ -3225,28 +1251,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Gypceros Roxo",
@@ -3260,28 +1265,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Ludroth Roxo",
@@ -3295,28 +1279,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Água"
+    ]
   },
   {
     "name": "Qurupeco Rubro",
@@ -3330,56 +1293,49 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Rajang",
-    "region": "Alcala",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
         "type": "Rápido"
+      },
+      {
+        "state": "Aura de Força",
+        "type": "Rápido"
+      },
+      {
+        "state": "Aura Rápida",
+        "type": "Técnica"
+      },
+      {
+        "state": "Aura Técnica",
+        "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
+    ]
+  },
+  {
+    "name": "Fatalis (Alta Dificuldade)",
+    "region": "Chefes / Monstros Reais",
+    "attackStates": [
       {
-        "phase": 1,
-        "element": "Gelo"
+        "state": "Padrão",
+        "type": "Técnica"
       },
       {
-        "phase": 2,
-        "element": "Gelo"
+        "state": "Após Chama Infernal",
+        "type": "Rápido"
       },
       {
-        "phase": 3,
-        "element": "Gelo"
+        "state": "Após Força do Céu",
+        "type": "Técnica"
+      },
+      {
+        "state": "Enfurecido",
+        "type": "Força"
       }
     ]
   },
@@ -3391,28 +1347,7 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Rathi",
@@ -3426,28 +1361,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Khezu Rubro",
@@ -3465,28 +1379,7 @@
         "state": "Carregado",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Remobra",
@@ -3495,23 +1388,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Dragão"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
       }
     ]
   },
@@ -3527,28 +1403,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
-      }
-    ],
-    "rideType": "Água"
+    ]
   },
   {
     "name": "Basarios Rubi",
@@ -3562,28 +1417,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Barioth de Areia",
@@ -3597,28 +1431,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Seltas",
@@ -3631,26 +1444,6 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -3665,26 +1458,10 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
       },
       {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
+        "state": "Combinada",
+        "type": "Rápido"
       }
     ]
   },
@@ -3700,28 +1477,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Shakalaka",
@@ -3730,23 +1486,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
       }
     ]
   },
@@ -3762,32 +1501,11 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Rathalos Prateado",
-    "region": "Hakolo Island",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão/Enfurecido",
@@ -3801,32 +1519,11 @@
         "state": "Voando/Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Nargacuga Argentasa",
-    "region": "Hakolo Island",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -3835,26 +1532,6 @@
       {
         "state": "Enfurecido",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -3866,23 +1543,6 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
     ]
   },
   {
@@ -3893,28 +1553,11 @@
         "state": "Padrão",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
     ]
   },
   {
     "name": "Mizutsune Vatealma",
-    "region": "Lamure",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -3924,32 +1567,11 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Água"
+    ]
   },
   {
     "name": "Zinogre Tenebroso",
-    "region": "Hakolo Island",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -3959,32 +1581,11 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Dragão"
+    ]
   },
   {
     "name": "Teostra",
-    "region": "Hakolo Island",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -3993,26 +1594,6 @@
       {
         "state": "Enfurecido",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
       }
     ]
   },
@@ -4023,26 +1604,6 @@
       {
         "state": "Padrão",
         "type": "Rápido"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
       }
     ]
   },
@@ -4058,28 +1619,7 @@
         "state": "Carregado",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Tigrex Bruto",
@@ -4087,34 +1627,13 @@
     "attackStates": [
       {
         "state": "Padrão",
-        "type": "Técnica"
+        "type": "Rápido"
       },
       {
         "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Tobi-Kadachi",
@@ -4127,29 +1646,12 @@
       {
         "state": "Enfurecido",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
       },
       {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
+        "state": "Super Carregado",
+        "type": "Rápido"
       }
-    ],
-    "rideType": "Trovão"
+    ]
   },
   {
     "name": "Uragaan",
@@ -4163,28 +1665,7 @@
         "state": "Enfurecido",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Uroktor",
@@ -4194,52 +1675,23 @@
         "state": "Padrão",
         "type": "Força"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
     ]
   },
   {
     "name": "Velkhana",
-    "region": "Loloska",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
       },
-      {
-        "phase": 2,
-        "element": "Fogo"
+            {
+        "state": "Manto de Gelo",
+        "type": "Força"
       },
-      {
-        "phase": 3,
-        "element": "Fogo"
+            {
+        "state": "Voando",
+        "type": "Rápido"
       }
     ]
   },
@@ -4255,25 +1707,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Velociprey",
@@ -4282,23 +1716,6 @@
       {
         "state": "Padrão",
         "type": "Técnica"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
       }
     ]
   },
@@ -4309,23 +1726,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Fogo"
-      },
-      {
-        "phase": 2,
-        "element": "Fogo"
-      },
-      {
-        "phase": 3,
-        "element": "Fogo"
       }
     ]
   },
@@ -4341,28 +1741,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Não-elemental"
+    ]
   },
   {
     "name": "Yian Garuga",
@@ -4376,28 +1755,7 @@
         "state": "Enfurecido",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Água"
-      },
-      {
-        "phase": 2,
-        "element": "Água"
-      },
-      {
-        "phase": 3,
-        "element": "Água"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Yian Kut-Ku Azul",
@@ -4411,28 +1769,7 @@
         "state": "Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Fogo"
+    ]
   },
   {
     "name": "Zamites",
@@ -4441,23 +1778,6 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
-      },
-      {
-        "phase": 2,
-        "element": "Trovão"
-      },
-      {
-        "phase": 3,
-        "element": "Trovão"
       }
     ]
   },
@@ -4468,29 +1788,16 @@
       {
         "state": "Padrão",
         "type": "Força"
-      }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Trovão"
       },
       {
-        "phase": 2,
-        "element": "Trovão"
+        "state": "Coberto de Gelo",
+        "type": "Técnica"
       },
       {
-        "phase": 3,
-        "element": "Trovão"
+        "state": "Inflado",
+        "type": "Rápido"
       }
-    ],
-    "rideType": "Gelo"
+    ]
   },
   {
     "name": "Zinogre",
@@ -4508,32 +1815,11 @@
         "state": "Super Carregado",
         "type": "Rápido"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Gelo"
-      },
-      {
-        "phase": 3,
-        "element": "Gelo"
-      }
-    ],
-    "rideType": "Trovão"
+    ]
   },
-    {
+  {
     "name": "Oltura",
-    "region": "Qualquer área",
+    "region": "Chefes / Monstros Reais",
     "attackStates": [
       {
         "state": "Padrão",
@@ -4559,27 +1845,6 @@
         "state": "6 Asas/Enfurecido",
         "type": "Técnica"
       }
-    ],
-    "breakParts": {
-      "default": "Cortante",
-      "body": "Cortante",
-      "head": "Cortante",
-      "tail": "Cortante"
-    },
-    "weaknesses": [
-      {
-        "phase": 1,
-        "element": "Gelo"
-      },
-      {
-        "phase": 2,
-        "element": "Dragão"
-      },
-      {
-        "phase": 3,
-        "element": "Dragão"
-      }
-    ],
-    "rideType": "Dragão"
+    ]
   }
 ]

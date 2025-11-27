@@ -14,9 +14,12 @@
 
         <div class="controls">
             <input type="text" id="search-input" placeholder="Pesquisar monstro..." class="search-input">
-            <select id="region-filter" class="filter-select"><option value="">Todas as regiões</option></select>
-            <select id="weakness-filter" class="filter-select"><option value="">Todas as fraquezas</option></select>
-            <select id="attack-filter" class="filter-select"><option value="">Todos os ataques</option></select>
+            <select id="region-filter" class="filter-select" aria-label="Filtrar por Região">
+                <option value="">Todas as regiões</option>
+            </select>
+            <select id="attack-filter" class="filter-select" aria-label="Filtrar por Tipo de Ataque">
+                <option value="">Todos os ataques</option>
+            </select>
         </div>
 
         <div id="loading" class="loading">Carregando monstros...</div>

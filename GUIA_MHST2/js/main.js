@@ -1,8 +1,30 @@
-// main.js – GUIA MHST2 FINAL (SVGs + ORDEM OFICIAL + SÓ ÍCONES)
+// main.js – GUIA DEFINITIVO MHST2 (2025)
 
 let allMonsters = [];
 
-// Ordem oficial das regiões no bestiário do jogo
+// Mapa de tradução das regiões
+const REGION_TRANSLATIONS = {
+    "Pomore Garden": "Jardim de Pomore",
+    "Hakolo Island": "Ilha de Hakolo",
+    "Alcala Highlands": "Terras Altas de Alcala",
+    "Arbia Forest": "Floresta de Albia",
+    "Loloska Forest": "Floresta de Loloska",
+    "Harzgai Rocky Canyon": "Cânion Rochoso de Harzgai",
+    "Jalma Highlands": "Terras Altas de Jalma",
+    "Terga Volcano": "Vulcão de Terga",
+    "Lamure Desert": "Deserto de Lamure",
+    "Lulucion": "Lulucion",
+    "Nua Te Village": "Vila Nua Te",
+    "Mt. Ena Lava Caves": "Cavernas de Lava do Monte Ena",
+    "Fuji Snowfields": "Campos Nevados de Fuji",
+    "Forbidden Grounds": "Terrenos Proibidos",
+    "Elder's Lair": "Toca do Ancião",
+    "Tower of Illusion": "Torre da Ilusão",
+    // Caso haja regiões personalizadas no JSON
+    "Chefes / Monstros Reais": "Chefes / Monstros Reais" 
+};
+
+
 const ORDEM_OFICIAL_REGIOES = [
     "Pomore Garden", "Hakolo Island", "Alcala Highlands", "Arbia Forest",
     "Loloska Forest", "Harzgai Rocky Canyon", "Jalma Highlands", "Terga Volcano",
@@ -27,7 +49,6 @@ document.addEventListener('DOMContentLoaded', async () => {
     };
 
     allMonsters.sort(window.sortByRegion);
-
     initFilters(allMonsters, ordemFinal);
     renderMonsters(allMonsters);
     initTheme();
@@ -36,55 +57,48 @@ document.addEventListener('DOMContentLoaded', async () => {
 async function loadMonsters() {
     try {
         const res = await fetch('data/monsters.json');
-        if (!res.ok) throw new Error();
+        if (!res.ok) throw new Error("JSON não encontrado");
         return await res.json();
-    } catch {
-        document.getElementById('loading').textContent = 'Erro ao carregar dados. Use Live Server!';
+    } catch (e) {
+        console.error("Erro:", e);
+        document.getElementById('loading').textContent = 'Erro: Verifique se está usando Live Server e se o JSON está em /data/monsters.json';
         return [];
     }
 }
 
 function createMonsterCard(monster, index) {
-    const { 
-        name, 
-        region, 
-        attackStates = [], 
-        weaknesses = [] 
-    } = monster;
+    const { name, region, attackStates = [], rideType } = monster;
 
-    // ←←← PROTEÇÃO TOTAL (nunca mais vai dar erro) ←←←
+    // NOVO: Usa a tradução da região, mas se não encontrar, usa o nome original (region)
+    const translatedRegion = REGION_TRANSLATIONS[region] || region; 
+
     const safeAttackStates = Array.isArray(attackStates) && attackStates.length > 0
-        ? attackStates
-        : [{ state: "Padrão", type: "—" }];
-
-    const mainWeakness = weaknesses[0]?.element || '—';
-    const weaknessChanged = weaknesses.some(w => w.element !== mainWeakness);
-    const alteredWeakness = weaknessChanged
-        ? weaknesses.find(w => w.element !== mainWeakness)?.element || '—'
-        : null;
+        ? attackStates : [{ state: "Padrão", type: "—" }];
 
     return `
         <div class="monster-card" style="animation-delay:${index * 0.03}s">
             <div class="name-header"><h2 class="monster-name">${name}</h2></div>
-            <p class="monster-region">Região: ${region}</p>
+            <p class="monster-region">Região: ${translatedRegion}</p>
             <div class="monster-info">
-                <div class="info-row">
-                    <span class="info-label">Fraqueza:</span>
-                    <span class="info-value"><span class="icon icon-${normalize(mainWeakness)}"></span></span>
-                </div>
 
-                <!-- Todos os estados — liberdade total e à prova de falhas -->
                 ${safeAttackStates.map(s => `
-                <div class="info-row">
+                <div class="info-row attack-row">
                     <span class="info-label">${s.state}:</span>
-                    <span class="info-value"><span class="icon icon-${normalize((s.type || "").split(' ')[0])}"></span></span>
+                    <div class="attack-display">
+                        <span class="icon icon-${normalize(s.type)}"></span>
+                        <span class="attack-text">${s.type || "—"}</span>
+                    </div>
                 </div>`).join('')}
 
-                ${alteredWeakness ? `
+                ${rideType ? `
                 <div class="info-row">
-                    <span class="info-label">Fraqueza alterada:</span>
-                    <span class="info-value"><span class="icon icon-${normalize(alteredWeakness)}"></span></span>
+                    <span class="info-label">Montaria:</span>
+                    <div class="ride-display">
+                        <span class="icon icon-${normalize(rideType)}"></span>
+                        <span class="ride-text">${rideType}</span>
+                    </div>
                 </div>` : ''}
+
             </div>
         </div>`;
 }
@@ -97,50 +111,46 @@ function normalize(str) {
         técnica:'technical', tecnica:'technical', força:'power', forca:'power',
         rápido:'speed', rapido:'speed'
     };
-    const clean = str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-    return map[clean] || 'none';
+    return map[str.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')] || 'none';
 }
 
 function initFilters(monsters, ordemRegioes) {
     const rf = document.getElementById('region-filter');
-    const wf = document.getElementById('weakness-filter');
     const af = document.getElementById('attack-filter');
     const si = document.getElementById('search-input');
+    
+    // CORREÇÃO DE ACESSIBILIDADE
+    rf.setAttribute('aria-label', 'Filtrar por Região');
+    af.setAttribute('aria-label', 'Filtrar por Tipo de Ataque');
+    si.setAttribute('aria-label', 'Caixa de Pesquisa de Monstros');
+    // FIM DA CORREÇÃO
 
     rf.innerHTML = '<option value="">Todas as regiões</option>';
-    wf.innerHTML = '<option value="">Todas as fraquezas</option>';
     af.innerHTML = '<option value="">Todos os ataques</option>';
 
     ordemRegioes.forEach(r => {
-        const o = document.createElement('option');
-        o.value = r; o.textContent = r;
-        rf.appendChild(o);
+        // NOVO: Exibe o nome traduzido (REGION_TRANSLATIONS[r]), mas usa o nome original (r) como 'value' para a filtragem
+        const translatedName = REGION_TRANSLATIONS[r] || r;
+        const o = new Option(translatedName, r); 
+        rf.add(o);
     });
 
-    [...new Set(monsters.flatMap(m => m.weaknesses.map(w => w.element)))].sort().forEach(w => {
-        const o = document.createElement('option'); o.value = w; o.textContent = w; wf.appendChild(o);
-    });
-
-    ['Técnica','Força','Rápido'].forEach(a => {
-        const o = document.createElement('option'); o.value = a; o.textContent = a; af.appendChild(o);
-    });
+    ['Técnica','Força','Rápido'].forEach(a => af.add(new Option(a, a)));
 
     const apply = () => filterAndRender(allMonsters);
-    rf.onchange = wf.onchange = af.onchange = apply;
-    si.oninput = apply;
+    rf.onchange = af.onchange = si.oninput = apply;
 }
 
 function filterAndRender(all) {
     const s = document.getElementById('search-input').value.toLowerCase().trim();
     const r = document.getElementById('region-filter').value;
-    const w = document.getElementById('weakness-filter').value;
     const a = document.getElementById('attack-filter').value;
 
     let filtered = all.filter(m => {
         if (s && !m.name.toLowerCase().includes(s)) return false;
         if (r && m.region !== r) return false;
-        if (w && !m.weaknesses.some(x => x.element === w)) return false;
-        if (a && !m.attackStates.some(x => x.type === a)) return false;
+        if (a && !m.attackStates?.some(x => x.type === a)) return false;
+        
         return true;
     });
 
@@ -151,25 +161,30 @@ function filterAndRender(all) {
 function renderMonsters(m) {
     const c = document.getElementById('monsters-container');
     const cnt = document.getElementById('results-count');
-    document.getElementById('loading').style.display='none';
-    if(m.length===0){
-        c.innerHTML='<div class="monster-card"><p style="text-align:center;color:var(--text-secondary)">Nenhum monstro encontrado</p></div>';
-        cnt.textContent='';
+    document.getElementById('loading').style.display = 'none';
+
+    if (!m.length) {
+        c.innerHTML = '<div class="monster-card"><p style="text-align:center;color:var(--text-secondary)">Nenhum monstro encontrado</p></div>';
+        cnt.textContent = '';
         return;
     }
-    c.innerHTML = m.map((mon,i)=>createMonsterCard(mon,i)).join('');
-    cnt.textContent = `${m.length} monstro${m.length>1?'s':''} encontrado${m.length>1?'s':''}`;
+
+    c.innerHTML = m.map((mon, i) => createMonsterCard(mon, i)).join('');
+    cnt.textContent = `${m.length} monstro${m.length > 1 ? 's' : ''} encontrado${m.length > 1 ? 's' : ''}`;
 }
 
 function initTheme() {
     const btn = document.getElementById('theme-toggle');
     const html = document.documentElement;
     const saved = localStorage.getItem('theme') || 'light';
-    if(saved==='dark'){ html.setAttribute('data-theme','dark'); btn.textContent='Modo Claro'; }
+    html.setAttribute('data-theme', saved);
+    btn.textContent = saved === 'dark' ? 'Modo Claro' : 'Modo Escuro';
+
     btn.onclick = () => {
-        const isDark = html.getAttribute('data-theme')==='dark';
-        html.setAttribute('data-theme', isDark?'light':'dark');
-        btn.textContent = isDark?'Modo Escuro':'Modo Claro';
-        localStorage.setItem('theme', isDark?'light':'dark');
+        const isDark = html.getAttribute('data-theme') === 'dark';
+        const newTheme = isDark ? 'light' : 'dark';
+        html.setAttribute('data-theme', newTheme);
+        btn.textContent = newTheme === 'dark' ? 'Modo Claro' : 'Modo Escuro';
+        localStorage.setItem('theme', newTheme);
     };
 }

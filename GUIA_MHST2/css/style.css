@@ -165,10 +165,11 @@ h1 {
 .info-row:last-child { border-bottom: none; }
 
 .info-label { 
-    font-weight: 600; 
+    font-weight: 700; 
     min-width: 160px; 
     flex-shrink: 0; 
     font-size: 0.98rem;
+    color: var(--accent-secondary);
 }
 
 .info-value { 
@@ -176,7 +177,7 @@ h1 {
     align-items: center; 
 }
 
-/* ÍCONES SVG – PERFEITOS */
+/* ÍCONES SVG GERAIS */
 .icon {
     width: 32px;
     height: 32px;
@@ -187,11 +188,6 @@ h1 {
     transition: all 0.3s ease;
 }
 
-.icon-fire      { background-image: url('../assets/icons/fire.svg'); }
-.icon-water     { background-image: url('../assets/icons/water.svg'); }
-.icon-thunder   { background-image: url('../assets/icons/thunder.svg'); }
-.icon-ice       { background-image: url('../assets/icons/ice.svg'); }
-.icon-dragon    { background-image: url('../assets/icons/dragon.svg'); }
 .icon-none      { background-image: url('../assets/icons/none.svg'); }
 .icon-technical { background-image: url('../assets/icons/technical.svg'); }
 .icon-power     { background-image: url('../assets/icons/power.svg'); }
@@ -212,6 +208,19 @@ h1 {
     color: var(--text-secondary);
     font-size: 1.15rem;
     font-weight: 500;
+}
+
+/* Texto do ataque e montaria */
+.attack-display, .ride-display {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-weight: 600;
+}
+
+.attack-text, .ride-text {
+    color: var(--accent-primary);
+    font-size: 1.1rem;
 }
 
 /* RESPONSIVO */
