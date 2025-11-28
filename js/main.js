@@ -127,7 +127,9 @@ function createMonsterCard(monster, index) {
             </div>`;
     }
     
-    // Geração Dinâmica de Imagens
+    // Geração Dinâmica de Imagens (CORREÇÃO DO ERRO AQUI)
+    // Em vez de usar monster_icons[...] e monster_eggs[...], usamos o nome direto.
+    
     const iconFile = IMAGE_EXCEPTIONS[nomeOriginal] || `${nomeOriginal}.webp`;
     const iconPath = `assets/monster_icons/${iconFile}`;
 
@@ -185,17 +187,14 @@ function initFilters() {
 
     let regionOptions = '<option value="all">Todas as Regiões</option>'; 
     
-    // Adiciona as regiões na ordem definida em translations.js
     ORDEM_REGIOES.forEach(key => { 
         if (uniqueHabitats.has(key)) {
-            // AQUI OCORRE A MÁGICA: Pega o nome "Qualquer Lugar" do translations.js
             const label = REGION_TRANSLATIONS[key] || key;
             regionOptions += `<option value="${key}">${label}</option>`; 
             uniqueHabitats.delete(key);
         }
     });
     
-    // Adiciona qualquer região extra que não estava na lista ordenada
     uniqueHabitats.forEach(key => {
         const label = REGION_TRANSLATIONS[key] || key;
         regionOptions += `<option value="${key}">${label}</option>`;
@@ -224,8 +223,6 @@ function filterAndRender() {
         
         if (filters.search && !nome.includes(filters.search)) return false;
         
-        // Lógica de Região:
-        // Se filtro não for 'all' E habitat do monstro não for o filtro escolhido -> Esconde
         if (filters.region !== 'all' && habitat !== filters.region) {
             return false;
         }
