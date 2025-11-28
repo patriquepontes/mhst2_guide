@@ -682,7 +682,7 @@
       },
       {
         "state": "Enraged",
-        "type": "Technical"
+        "type": "Speed"
       }
     ]
   },
@@ -1228,7 +1228,7 @@
       },
       {
         "state": "Enraged",
-        "type": "Technical"
+        "type": "Speed"
       }
     ]
   },
@@ -1290,7 +1290,7 @@
       },
       {
         "state": "Enraged",
-        "type": "Speed"
+        "type": "Power"
       }
     ]
   },
@@ -1336,11 +1336,11 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Power"
+        "type": "Technical"
       },
       {
         "state": "Enraged",
-        "type": "Technical"
+        "type": "Power"
       }
     ]
   },
@@ -1385,7 +1385,7 @@
       },
       {
         "state": "Enraged",
-        "type": "Technical"
+        "type": "Power"
       }
     ]
   },
@@ -1613,7 +1613,7 @@
       },
       {
         "state": "Overcharged",
-        "type": "Technical"
+        "type": "Speed"
       }
     ]
   },
@@ -2581,7 +2581,7 @@
       },
       {
         "state": "Enraged",
-        "type": "Technical"
+        "type": "Speed"
       }
     ]
   },
@@ -2671,11 +2671,11 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
-        "type": "Power"
+        "type": "Technical"
       }
     ]
   },
@@ -2722,11 +2722,11 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
-        "type": "Power"
+        "type": "Technical"
       }
     ]
   },
@@ -2984,7 +2984,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
@@ -3108,7 +3108,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
@@ -3237,7 +3237,7 @@
       },
       {
         "state": "Enraged",
-        "type": "Technical"
+        "type": "Power"
       }
     ]
   },
@@ -3455,7 +3455,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Power"
       },
       {
         "state": "Enraged",
@@ -4208,7 +4208,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
@@ -4273,11 +4273,11 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Power"
       },
       {
         "state": "Enraged",
-        "type": "Power"
+        "type": "Technical"
       }
     ]
   },
@@ -4808,7 +4808,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
@@ -5407,7 +5407,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
@@ -5702,7 +5702,7 @@
     "attackStates": [
       {
         "state": "Default",
-        "type": "Technical"
+        "type": "Speed"
       },
       {
         "state": "Enraged",
