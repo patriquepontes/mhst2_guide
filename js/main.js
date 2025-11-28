@@ -1,4 +1,4 @@
-// js/main.js – GUIA MHST2 2025 – FINAL E PERFEITO
+// js/main.js
 
 let allMonsters = [];
 let filters = {
@@ -6,16 +6,17 @@ let filters = {
     region: 'all'
 };
 
-// MAPA PARA CORRIGIR INCONSISTÊNCIAS ENTRE JSON (curto) e TRANSLATIONS (longo)
+// Mapeamento para correções de imagem manuais (caso o nome do arquivo seja muito diferente)
+const IMAGE_EXCEPTIONS = {
+    "Fatalis": "_Unknown.webp"
+};
+
 const HABITAT_CORRECTION_MAP = {
-    // Mapeamentos curtos (do JSON) para longos (do Translation/Filtro)
     "Hakolo Island": "Hakolo Island",
     "Alcala": "Alcala Highlands",
     "Loloska": "Loloska Forest",
     "Lamure": "Lamure Desert",
     "Terga": "Terga Volcano",
-
-    // GARANTIA: Mapeia as chaves longas para si mesmas para evitar problemas de correspondência
     "Alcala Highlands": "Alcala Highlands",
     "Loloska Forest": "Loloska Forest",
     "Lamure Desert": "Lamure Desert",
@@ -25,31 +26,15 @@ const HABITAT_CORRECTION_MAP = {
     "Mt. Ena Lava Caves": "Mt. Ena Lava Caves"
 };
 
-
 document.addEventListener('DOMContentLoaded', async () => {
     allMonsters = await loadMonsters();
     if (allMonsters.length === 0) return;
     
-    // A função populateAttackStateTranslations foi removida e o mapa global será usado diretamente.
-    
+    // Ordenação alfabética pelo nome traduzido
     allMonsters.sort((a, b) => {
-        // Normaliza habitat antes da ordenação
-        const normalizedRegA = HABITAT_CORRECTION_MAP[a.habitat] || a.habitat;
-        const normalizedRegB = HABITAT_CORRECTION_MAP[b.habitat] || b.habitat;
-        
-        const regA = normalizedRegA || '__NULL_REGION__';
-        const regB = normalizedRegB || '__NULL_REGION__';
-        
-        // Coloca regiões desconhecidas/null por último na ordenação
-        const idxA = ORDEM_REGIOES.indexOf(regA);
-        const idxB = ORDEM_REGIOES.indexOf(regB);
-        
-        // Se algum não está na ORDEM_REGIOES, assume a última posição (999)
-        if (idxA !== idxB) {
-            return (idxA === -1 ? 999 : idxA) - (idxB === -1 ? 999 : idxB);
-        }
-        
-        return (a.nameTranslate || a.name).localeCompare(b.nameTranslate || b.name);
+        const nameA = MONSTER_NAME_TRANSLATIONS[a.name] || a.name;
+        const nameB = MONSTER_NAME_TRANSLATIONS[b.name] || b.name;
+        return nameA.localeCompare(nameB);
     });
 
     initFilters();
@@ -61,89 +46,114 @@ async function loadMonsters() {
     try {
         const res = await fetch('data/monsters.json');
         if (!res.ok) throw new Error();
-        return await res.json();
+
+        const rawText = await res.text();
+        // Remove comentários // do JSON
+        const cleanText = rawText.replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*)/g, (match, group1) => {
+            return group1 ? "" : match;
+        });
+
+        return JSON.parse(cleanText);
+
     } catch (e) {
-        document.getElementById('loading').innerHTML = 'Erro ao carregar monsters.json';
+        console.error("Erro ao processar o JSON:", e);
+        document.getElementById('loading').innerHTML = 'Erro ao carregar dados dos monstros.';
         return [];
     }
 }
 
+function invertAttackPatterns(patternsObj) {
+    if (!patternsObj || typeof patternsObj !== "object") return patternsObj;
+    const inverted = {};
+    for (const state in patternsObj) {
+        const type = patternsObj[state]?.toLowerCase();
+        if (type === "technical") inverted[state] = "power";
+        else if (type === "power") inverted[state] = "speed";
+        else if (type === "speed") inverted[state] = "technical";
+        else inverted[state] = type;
+    }
+    return inverted;
+}
 
 function createMonsterCard(monster, index) {
-    const nome = monster.nameTranslate || monster.name;
+    const combatData = monster.monster || {};
+    const nomeOriginal = monster.name;
+    const nomeTraduzido = MONSTER_NAME_TRANSLATIONS[nomeOriginal] || nomeOriginal;
     
-    // Normaliza habitat
-    const rawHabitatKey = monster.habitat;
-    const normalizedHabitatKey = HABITAT_CORRECTION_MAP[rawHabitatKey] || rawHabitatKey;
-
-    const habitatKey = normalizedHabitatKey || '__NULL_REGION__';
-    const regiao = REGION_TRANSLATIONS[habitatKey] || "Desconhecida";
+    // Normalização de Habitat e Tradução (inclui __NULL_REGION__ -> Qualquer Lugar)
+    const rawHabitat = monster.habitat;
+    const normalizedHabitatKey = HABITAT_CORRECTION_MAP[rawHabitat] || rawHabitat || '__NULL_REGION__';
+    const regiao = REGION_TRANSLATIONS[normalizedHabitatKey] || normalizedHabitatKey;
 
     // Fraqueza
-    const weaknessRaw = monster.elementalWeakness;
+    const weaknessRaw = combatData.elementalWeakness;
     let weaknessKey = "None";
     if (typeof weaknessRaw === "string" && weaknessRaw.trim()) {
         weaknessKey = weaknessRaw.charAt(0).toUpperCase() + weaknessRaw.slice(1).toLowerCase();
-    } else if (weaknessRaw === null) { 
-        weaknessKey = "None";
     }
     const fraqueza = ELEMENT_TRANSLATIONS[weaknessKey] || "—";
 
-    // LÓGICA PARA EXIBIR TODOS OS ESTADOS DE ATAQUE
+    // Padrões de Ataque
     let attackStatesHTML = '';
-    const hasAttackStates = Array.isArray(monster.attackStates) && monster.attackStates.length > 0;
+    const invertedPatterns = invertAttackPatterns(combatData.attackPatterns || {});
+    const patternEntries = Object.entries(invertedPatterns);
 
-    if (hasAttackStates) {
-        monster.attackStates.forEach(state => {
-            // USA O NOVO OBJETO GLOBAL ATTACK_STATE_TRANSLATIONS
-            const stateName = ATTACK_STATE_TRANSLATIONS[state.state] || state.state;
-            const attackType = state.type || "None";
-            const ataqueTranslate = ATTACK_TRANSLATIONS[attackType] || "—";
+    if (patternEntries.length > 0) {
+        patternEntries.forEach(([stateRaw, typeRaw]) => {
+            let stateName = ATTACK_STATE_TRANSLATIONS[stateRaw] || stateRaw;
+            if (stateRaw === 'DEFAULT') stateName = 'Normal';
+
+            const typeLower = typeRaw ? typeRaw.toLowerCase() : "none";
+            const typeCapitalized = typeLower.charAt(0).toUpperCase() + typeLower.slice(1);
+            const ataqueTranslate = ATTACK_TRANSLATIONS[typeCapitalized] || ATTACK_TRANSLATIONS[typeLower] || "—";
             
-            // Cria uma nova linha para cada estado
             attackStatesHTML += `
                 <div class="info-row attack-state-row">
                     <span class="info-label">${stateName}:</span>
                     <div class="attack-display">
-                        <img src="assets/icons/${attackType.toLowerCase()}.svg" onerror="this.src='assets/icons/none.svg'">
+                        <img src="assets/icons/${typeLower}.svg" alt="${ataqueTranslate}" width="24" height="24">
                         <span>${ataqueTranslate}</span>
                     </div>
                 </div>`;
         });
     } else {
-        // Exibe "Ataque: —" para monstros sem attackStates (e.g., Kelbi)
         attackStatesHTML = `
             <div class="info-row attack-state-row">
                 <span class="info-label">Ataque:</span>
                 <div class="attack-display">
-                    <img src="assets/icons/none.svg" onerror="this.src='assets/icons/none.svg'">
+                    <img src="assets/icons/none.svg" alt="Sem padrão" width="24" height="24">
                     <span>—</span>
                 </div>
             </div>`;
     }
     
-    // LÓGICA DO OVO
-    const isMonstie = hasAttackStates; 
-    const eggEntry = isMonstie && monster_eggs && monster_eggs[monster.name];
-    const eggFilePath = eggEntry?.file; 
+    // Geração Dinâmica de Imagens
+    const iconFile = IMAGE_EXCEPTIONS[nomeOriginal] || `${nomeOriginal}.webp`;
+    const iconPath = `assets/monster_icons/${iconFile}`;
 
-    const ovoHTML = eggFilePath
-        ? `<img src="assets/${eggFilePath}" class="egg-icon-only" alt="Ovo" style="width:80px;height:80px;object-fit:contain;">`
-        : '';
+    let ovoHTML = '';
+    if (monster.hatchable) {
+        const eggPath = `assets/monster_eggs/${nomeOriginal}.svg`;
+        ovoHTML = `<img src="${eggPath}" class="egg-icon-only" alt="Ovo de ${nomeTraduzido}" 
+                        loading="lazy" width="80" height="80" 
+                        style="object-fit:contain;">`;
+    }
     
     return `
-    <div class="monster-card" style="animation-delay:${index * 0.04}s">
+    <div class="monster-card">
         <div class="card-image-section">
-            <img src="assets/monster_icons/${monster.name}.webp" 
-                 alt="${nome}" 
+            <img src="${iconPath}" 
+                 alt="${nomeTraduzido}" 
                  class="monster-icon-main" 
-                 style="width:80px;height:80px;object-fit:contain;"
+                 loading="lazy"
+                 width="80" height="80"
+                 style="object-fit:contain;"
                  onerror="this.src='assets/monster_icons/_Unknown.webp'">
 
             ${ovoHTML}
         </div>
 
-        <div class="name-header"><h2 class="monster-name">${nome}</h2></div>
+        <div class="name-header"><h2 class="monster-name">${nomeTraduzido}</h2></div>
         <p class="monster-region">Região: ${regiao}</p>
 
         <div class="monster-info">
@@ -152,7 +162,7 @@ function createMonsterCard(monster, index) {
             <div class="info-row">
                 <span class="info-label">Fraqueza:</span>
                 <div class="weakness-display">
-                    <img src="assets/icons/${weaknessKey.toLowerCase()}.svg" onerror="this.src='assets/icons/none.svg'">
+                    <img src="assets/icons/${weaknessKey.toLowerCase()}.svg" alt="${fraqueza}" width="24" height="24">
                     <span>${fraqueza}</span>
                 </div>
             </div>
@@ -161,39 +171,38 @@ function createMonsterCard(monster, index) {
 }
 
 function initFilters() {
-    // Referência aos selects
     const regionFilter = document.getElementById('region-filter');
     const searchInput = document.getElementById('search-input');
 
-    if (!regionFilter || !searchInput) {
-        console.error("Um ou mais elementos de filtro não foram encontrados no DOM.");
-        return;
-    }
+    if (!regionFilter || !searchInput) return;
 
-    // --- 1. POPULAR FILTRO DE REGIÃO (HABITAT) ---
     const uniqueHabitats = new Set();
     allMonsters.forEach(m => {
-        const rawHabitat = m.habitat;
-        const normalizedHabitat = HABITAT_CORRECTION_MAP[rawHabitat] || rawHabitat;
-        uniqueHabitats.add(normalizedHabitat || '__NULL_REGION__');
+        const raw = m.habitat;
+        const norm = HABITAT_CORRECTION_MAP[raw] || raw || '__NULL_REGION__';
+        uniqueHabitats.add(norm);
     });
 
     let regionOptions = '<option value="all">Todas as Regiões</option>'; 
     
+    // Adiciona as regiões na ordem definida em translations.js
     ORDEM_REGIOES.forEach(key => { 
         if (uniqueHabitats.has(key)) {
-            regionOptions += `<option value="${key}">${REGION_TRANSLATIONS[key]}</option>`; 
+            // AQUI OCORRE A MÁGICA: Pega o nome "Qualquer Lugar" do translations.js
+            const label = REGION_TRANSLATIONS[key] || key;
+            regionOptions += `<option value="${key}">${label}</option>`; 
             uniqueHabitats.delete(key);
         }
     });
     
-    if (uniqueHabitats.has('__NULL_REGION__')) {
-        regionOptions += `<option value="__NULL_REGION__">${REGION_TRANSLATIONS['__NULL_REGION__']}</option>`; 
-    }
+    // Adiciona qualquer região extra que não estava na lista ordenada
+    uniqueHabitats.forEach(key => {
+        const label = REGION_TRANSLATIONS[key] || key;
+        regionOptions += `<option value="${key}">${label}</option>`;
+    });
 
     regionFilter.innerHTML = regionOptions;
 
-    // --- 2. ADICIONAR LISTENERS
     searchInput.addEventListener('input', (e) => {
         filters.search = e.target.value.toLowerCase().trim();
         filterAndRender();
@@ -207,19 +216,16 @@ function initFilters() {
 
 function filterAndRender() {
     const listaFiltrada = allMonsters.filter(monster => {
-        const nome = (monster.nameTranslate || monster.name).toLowerCase();
+        const translatedName = MONSTER_NAME_TRANSLATIONS[monster.name] || monster.name;
+        const nome = translatedName.toLowerCase();
         
-        // Habitat (para filtro de Região)
-        const rawHabitatKey = monster.habitat;
-        const normalizedHabitatKey = HABITAT_CORRECTION_MAP[rawHabitatKey] || rawHabitatKey;
-        const habitat = normalizedHabitatKey || '__NULL_REGION__';
+        const rawHabitat = monster.habitat;
+        const habitat = HABITAT_CORRECTION_MAP[rawHabitat] || rawHabitat || '__NULL_REGION__';
         
-        // 1. Filtro de Pesquisa por Nome
-        if (filters.search && !nome.includes(filters.search)) {
-            return false;
-        }
-
-        // 2. Filtro de Região
+        if (filters.search && !nome.includes(filters.search)) return false;
+        
+        // Lógica de Região:
+        // Se filtro não for 'all' E habitat do monstro não for o filtro escolhido -> Esconde
         if (filters.region !== 'all' && habitat !== filters.region) {
             return false;
         }

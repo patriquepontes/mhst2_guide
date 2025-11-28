@@ -1,13 +1,13 @@
 // js/translations.js
 
 const REGION_TRANSLATIONS = {
+    "__NULL_REGION__": "Qualquer Lugar", // CORREÇÃO SOLICITADA
     "Hakolo Island": "Ilha de Hakolo",
     "Alcala Highlands": "Terras Altas de Alcala",
     "Loloska Forest": "Floresta de Loloska",
     "Lamure Desert": "Deserto de Lamure",
     "Terga Volcano": "Vulcão de Terga",
     "Fuji Snowfields": "Campos Nevados de Fuji",
-    "Lulucion": "Lulucion",
     "Mt. Ena Lava Caves": "Cavernas de Lava do Monte Ena"
 };
 
@@ -27,7 +27,6 @@ const ATTACK_TRANSLATIONS = {
     "None": "—"
 };
 
-// NOVO: TRADUÇÕES DOS ESTADOS DE ATAQUE (ATTACK STATES)
 const ATTACK_STATE_TRANSLATIONS = {
     "Default": "Padrão",
     "Enraged": "Enfurecido",
@@ -52,7 +51,81 @@ const ATTACK_STATE_TRANSLATIONS = {
     "Detonation": "Detonação",
     "Flying Enraged": "Voando Enfurecido",
     "Supercharged": "Supercarregado",
-    "Overcharged": "Sobrecarregado"
+    "Overcharged": "Sobrecarregado",
+    "After Molten Uppercut": "Após Gancho Derretido",
+    "No Mantle": "Sem Manto"
+};
+
+// APENAS OS NOMES QUE MUDAM EM PORTUGUÊS
+const MONSTER_NAME_TRANSLATIONS = {
+    "Velocidrome": "Velocídrome",
+    "Bnahabra (Blue)": "Bnahabra (Azul)",
+    "Konchu (Yellow)": "Konchu (Amarelo)",
+    "Blue Yian Kut-Ku": "Yian Kut-Ku Azul",
+    "Slagtoth (Green)": "Slagtoth (Verde)",
+    "Great Jaggi": "Grande Jaggi",
+    "Royal Ludroth": "Ludroth Real",
+    "Ash Kecha Wacha": "Kecha Wacha Cinzento",
+    "Purple Gypceros": "Gypceros Púrpura",
+    "Green Nargacuga": "Nargacuga Verde",
+    "Black Diablos": "Diablos Negra",
+    "White Monoblos": "Monoblos Alvo",
+    "Crimson Qurupeco": "Qurupeco Rubro",
+    "Daimyo Hermitaur": "Hermitauro Daimyo",
+    "Plum Daimyo Hermitaur": "Hermitauro Daimyo Ameixa",
+    "Brute Tigrex": "Tigrex Bruto",
+    "Purple Ludroth": "Ludroth Púrpura",
+    "Ruby Basarios": "Basarios Rubi",
+    "Black Gravios": "Gravios Tétrico",
+    "Great Thunderbug": "Grande Insetrovão",
+    "Konchu (Green)": "Konchu (Verde)",
+    "Desert Seltas Queen": "Rainha Seltas do Deserto",
+    "Green Plesioth": "Plesioth Verde",
+    "Shrouded Nerscylla": "Nerscylla Sombria",
+    "Emerald Congalala": "Congalala Esmeralda",
+    "Glacial Agnaktor": "Agnaktor Glacial",
+    "Ivory Lagiacrus": "Lagiacrus Marfim",
+    "Great Dracophage Bug": "Inseto Dracófago Grande",
+    "Bnahabra (Red)": "Bnahabra (Vermelho)",
+    "Vespoid": "Vespoidea",
+    "Sand Barioth": "Barioth de Areia",
+    "Stygian Zinogre": "Zinogre Tenebroso",
+    "Barrel Felyne": "Felyne Barril",
+    "Azure Rathalos": "Rathalos Lazúli",
+    "Pink Rathian": "Rathian Rosa",
+    "Fulgur Anjanath": "Anjanath Fulgurante",
+    "Silverwind Nargacuga": "Nargacuga Argentasa",
+    "Thunderlord Zinogre": "Zinogre Feralâmpago",
+    "Bloodbath Diablos": "Diablos Carnificina",
+    "Grimclaw Tigrex": "Tigrex Ceifagarra",
+    "Dreadqueen Rathian": "Rathian Maldita",
+    "Boltreaver Astalos": "Astalos Ceifarraios",
+    "Hellblade Glavenus": "Glavenus Flâmina",
+    "Elderfrost Gammoth": "Gammoth Glaciarcaico",
+    "Soulseer Mizutsune": "Mizutsune Vatealma",
+    "Oroshi Kirin": "Kirin Oroshi",
+    "Molten Tigrex": "Tigrex Ardente",
+    "Dreadking Rathalos": "Rathalos Maldito",
+    "Gold Rathian": "Rathian Dourada",
+    "Silver Rathalos": "Rathalos Prateado",
+    "Palamute (Normal)": "Palamute (Padrão)",
+    "Palamute (Fire)": "Palamute (Fogo)",
+    "Palamute (Water)": "Palamute (Água)",
+    "Palamute (Thunder)": "Palamute (Trovão)",
+    "Palamute (Ice)": "Palamute (Gelo)",
+    "Palamute (Dragon)": "Palamute (Dragão)",
+    "Popo": "Pôpo",
+    "Konchu (Blue)": "Konchu (Azul)",
+    "Bnahabra (Green)": "Bnahabra (Verde)",
+    "Great Baggi": "Grande Baggi",
+    "Zamite": "Zamites",
+    "Red Khezu": "Khezu Rubro",
+    "Seltas Queen": "Rainha Seltas",
+    "Jade Barroth": "Barroth Jade",
+    "Slagtoth (Brown)": "Slagtoth (Marrom)",
+    "Bnahabra (Brown)": "Bnahabra (Marrom)",
+    "Konchu (Red)": "Konchu (Vermelho)",
+    "Hermitaur": "Hermitauro"
 };
 
 const ORDEM_REGIOES = [
@@ -63,5 +136,6 @@ const ORDEM_REGIOES = [
     "Terga Volcano",
     "Fuji Snowfields",
     "Lulucion",
-    "Mt. Ena Lava Caves"
+    "Mt. Ena Lava Caves",
+    "__NULL_REGION__" // Garante que apareça no final se necessário
 ];

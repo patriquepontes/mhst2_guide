@@ -120,12 +120,17 @@ h1 {
     padding: 10px;
 }
 
+/* ATUALIZE APENAS A CLASSE .monster-card */
 .monster-card {
     background-color: var(--card-bg);
     border: 1px solid var(--border-color);
     border-radius: 12px;
     padding: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    
+    content-visibility: auto; 
+    contain-intrinsic-size: 350px;
+    
     animation: fadeIn 0.5s ease-out both;
 }
 
