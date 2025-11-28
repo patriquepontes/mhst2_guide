@@ -1,241 +1,258 @@
-:root {
-    --bg-primary: #ffffff;
-    --bg-secondary: #f8f9fa;
-    --text-primary: #1a1a1a;
-    --text-secondary: #6c757d;
-    --border-color: #e9ecef;
+/* --- 1. VARIÁVEIS DE TEMA (DARK/LIGHT) --- */
+html {
+    --bg-primary: #f4f4f9;
+    --bg-secondary: #ffffff;
     --card-bg: #ffffff;
-    --accent-primary: #d32f2f;
-    --accent-secondary: #1976d2;
+    --card-bg-secondary: #e0e0e0;
+    --text-primary: #333333;
+    --text-secondary: #666666;
+    --accent-color: #d32f2f;
+    /* Vermelho MH */
+    --border-color: #cccccc;
+    transition: background-color 0.3s, color 0.3s;
 }
 
-[data-theme="dark"] {
+html[data-theme='dark'] {
     --bg-primary: #121212;
     --bg-secondary: #1e1e1e;
-    --text-primary: #e0e0e0;
-    --text-secondary: #b0b0b0;
-    --border-color: #333;
     --card-bg: #1e1e1e;
+    --card-bg-secondary: #333333;
+    --text-primary: #ffffff;
+    --text-secondary: #aaaaaa;
+    --accent-color: #ff5252;
+    /* Vermelho MH mais claro */
+    --border-color: #444444;
 }
 
-* { box-sizing: border-box; margin:0; padding:0; }
-
+/* --- 2. ESTILOS GERAIS E LAYOUT --- */
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: var(--bg-secondary);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-primary);
     color: var(--text-primary);
+    margin: 0;
     padding: 20px;
     line-height: 1.6;
-    transition: background 0.3s, color 0.3s;
 }
 
-.container { max-width: 1400px; margin: 0 auto; padding: 0 10px; }
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 h1 {
+    color: var(--accent-color);
     text-align: center;
-    color: var(--accent-primary);
     margin-bottom: 30px;
-    font-size: clamp(1.9rem, 4.5vw, 2.8rem);
-    font-weight: 700;
+    font-size: 2.5em;
+    border-bottom: 2px solid var(--border-color);
+    padding-bottom: 10px;
 }
 
+/* --- 3. CONTROLES E FILTROS --- */
 .controls {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 16px;
-    margin-bottom: 32px;
-    padding: 20px;
-    background: var(--bg-primary);
-    border-radius: 14px;
-    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
-    border: 1px solid var(--border-color);
-}
-
-@media (max-width: 768px) { .controls { grid-template-columns: 1fr; } }
-
-.search-input, .filter-select {
-    padding: 13px 18px;
-    border: 2px solid var(--border-color);
-    border-radius: 10px;
-    background: var(--bg-secondary);
-    color: var(--text-primary);
-    font-size: 16px;
-    transition: all 0.2s;
-}
-
-.search-input:focus, .filter-select:focus {
-    outline: none;
-    border-color: var(--accent-secondary);
-    box-shadow: 0 0 0 4px rgba(25,118,210,0.15);
-}
-
-.theme-btn {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    padding: 12px 24px;
-    background: var(--accent-secondary);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-weight: 600;
-    font-size: 14px;
-    box-shadow: 0 4px 16px rgba(25,118,210,0.4);
-    z-index: 1000;
-    transition: all 0.3s;
-}
-
-.theme-btn:hover { transform: translateY(-3px); box-shadow: 0 8px 20px rgba(25,118,210,0.5); }
-
-.loading { text-align: center; padding: 80px; color: var(--text-secondary); font-size: 1.2rem; }
-
-/* GRID RESPONSIVO – APROVEITA TODA A TELA */
-.monsters-grid {
-    display: grid;
-    gap: 28px;
-    margin-bottom: 40px;
-    grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
-}
-
-.monster-card {
-    background: var(--card-bg);
-    border-radius: 14px;
-    padding: 28px;
-    box-shadow: 0 6px 24px rgba(0,0,0,0.1);
-    border: 1px solid var(--border-color);
-    opacity: 0;
-    animation: fadeIn 0.6s ease-out forwards;
-    transition: all 0.3s ease;
     display: flex;
-    flex-direction: column;
-}
-
-.monster-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 16px 40px rgba(0,0,0,0.18);
-}
-
-@keyframes fadeIn { to { opacity: 1; } }
-
-/* Fundo azul clarinho no nome */
-.name-header {
-    background: rgba(100, 181, 246, 0.06);
-    padding: 12px 24px;
-    margin: -28px -28px 20px -28px;
-    border-radius: 14px 14px 0 0;
-    border-bottom: 1px solid rgba(100, 181, 246, 0.15);
-}
-
-[data-theme="dark"] .name-header {
-    background: rgba(100, 181, 246, 0.12);
-    border-bottom-color: rgba(100, 181, 246, 0.28);
-}
-
-.monster-name { 
-    font-size: 1.75rem; 
-    font-weight: 700; 
-    color: var(--accent-primary); 
-    margin: 0; 
-}
-
-.monster-region { 
-    font-size: 0.95rem; 
-    color: var(--text-secondary); 
-    margin: 0 0 24px; 
-    font-style: italic; 
-}
-
-.monster-info { 
-    display: grid; 
-    gap: 14px; 
-    font-size: 1rem; 
-    flex: 1;
-}
-
-.info-row {
-    display: flex;
-    justify-content: flex-start;
+    gap: 15px;
+    margin-bottom: 25px;
+    flex-wrap: wrap;
     align-items: center;
-    padding: 10px 0;
-    border-bottom: 1px solid rgba(0,0,0,0.06);
-    gap: 32px;
+    justify-content: center;
 }
 
-.info-row:last-child { border-bottom: none; }
-
-.info-label { 
-    font-weight: 700; 
-    min-width: 160px; 
-    flex-shrink: 0; 
-    font-size: 0.98rem;
-    color: var(--accent-secondary);
+/* Alterado .search-input, .filter-select para funcionar com a nova estrutura HTML (se estiver usando a classe 'controls' como container do filtro) */
+.search-input,
+.filter-select {
+    padding: 10px 15px;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    background-color: var(--bg-secondary);
+    color: var(--text-primary);
+    font-size: 1em;
+    flex-grow: 1;
+    max-width: 300px;
 }
 
-.info-value { 
-    display: flex; 
-    align-items: center; 
-}
-
-/* ÍCONES SVG GERAIS */
-.icon {
-    width: 32px;
-    height: 32px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-shrink: 0;
-    transition: all 0.3s ease;
-}
-
-.icon-none      { background-image: url('../assets/icons/none.svg'); }
-.icon-technical { background-image: url('../assets/icons/technical.svg'); }
-.icon-power     { background-image: url('../assets/icons/power.svg'); }
-.icon-speed     { background-image: url('../assets/icons/speed.svg'); }
-
-[data-theme="dark"] .icon { filter: brightness(1.3) contrast(1.2); }
-.monster-card:hover .icon { 
-    filter: brightness(1.7) drop-shadow(0 0 8px rgba(255,255,255,0.8)) !important;
-    transform: scale(1.15);
+.search-input:focus,
+.filter-select:focus {
+    border-color: var(--accent-color);
+    outline: none;
+    box-shadow: 0 0 5px rgba(211, 47, 47, 0.5);
 }
 
 .results-count {
     text-align: center;
-    padding: 24px;
-    background: var(--bg-primary);
-    border-radius: 12px;
-    border: 1px solid var(--border-color);
     color: var(--text-secondary);
-    font-size: 1.15rem;
-    font-weight: 500;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
 
-/* Texto do ataque e montaria */
-.attack-display, .ride-display {
+.loading {
+    text-align: center;
+    font-size: 1.2em;
+    color: var(--text-secondary);
+    padding: 50px;
+}
+
+/* --- 4. BOTÃO DE TEMA --- */
+.theme-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
+    z-index: 10;
+}
+
+.theme-btn:hover {
+    background-color: #b71c1c;
+}
+
+/* --- 5. GRID E CARDS DE MONSTROS --- */
+.monsters-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: 20px;
+    padding: 10px;
+}
+
+.monster-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 0.5s ease-out both;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.name-header {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.monster-name {
+    margin: 0;
+    font-size: 1.5em;
+    color: var(--accent-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.monster-region {
+    text-align: center;
+    font-size: 0.9em;
+    color: var(--text-secondary);
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 1px dashed var(--border-color);
+}
+
+/* --- 6. SECÇÃO DE IMAGENS (MONSTRO E OVO) --- */
+
+.card-image-section {
+    /* CHAVE PARA ALINHAR MONSTRO E OVO NAS EXTREMIDADES */
+    display: flex;
+    justify-content: space-between !important;
+    /* EMPURRA PARA OS EXTREMOS */
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 0 5px;
+    /* Padding leve para evitar que as imagens colem nas laterais */
+    min-height: 80px;
+    /* Garante altura mínima se faltar um ícone */
+}
+
+/* ÍCONES DE MONSTRO E OVO - REGRAS DE TAMANHO GERAL
+   O tamanho real (80px) está no HTML via JS, mas essas regras suportam. */
+.monster-icon-main,
+.egg-icon-only {
+    /* Usamos object-fit para garantir que a imagem não distorça */
+    object-fit: contain;
+    /* Opcional, para reforçar: */
+    width: 80px;
+    height: 80px;
+}
+
+/* Placeholder quando não há ovo */
+.egg-placeholder {
+    display: block;
+    background-color: var(--card-bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    /* Herda o tamanho do JS */
+}
+
+
+/* --- 7. INFORMAÇÕES DETALHADAS E ÍCONES --- */
+.monster-info {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 10px;
+}
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px dotted var(--border-color);
+    padding-bottom: 5px;
+}
+
+.info-row:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.info-label {
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.attack-display,
+.element-display,
+.weakness-display,
+.ride-display {
     display: flex;
     align-items: center;
-    gap: 12px;
-    font-weight: 600;
+    gap: 5px;
 }
 
-.attack-text, .ride-text {
-    color: var(--accent-primary);
-    font-size: 1.1rem;
+.icon {
+    width: 24px;
+    height: 24px;
+    /* Regra para exibir ícones SVG usando background-image (opcional, dependendo da sua estrutura SVG) */
 }
 
-/* RESPONSIVO */
-@media (max-width: 1024px) {
-    .monsters-grid { grid-template-columns: repeat(2, 1fr); }
+/* Se você estiver usando tags <img> (o que o JS está fazendo agora), 
+   o dimensionamento é feito diretamente na tag <img>, tornando o código de background-image desnecessário. */
+.attack-display img,
+.element-display img,
+.weakness-display img,
+.ride-display img {
+    width: 24px;
+    height: 24px;
 }
 
-@media (max-width: 768px) {
-    .monsters-grid { 
-        grid-template-columns: 1fr; 
-        gap: 20px;
-    }
-    .monster-card { padding: 24px; }
-    .name-header { margin: -24px -24px 18px -24px; padding: 10px 20px; }
-    .info-row { gap: 20px; flex-direction: column; align-items: flex-start; }
-    .info-label { min-width: auto; }
-    .monster-name { font-size: 1.6rem; }
+.attack-text,
+.element-text,
+.weakness-text {
+    font-weight: 500;
 }

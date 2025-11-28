@@ -1,1857 +1,6018 @@
 [
   {
-    "name": "Agnaktor",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-            {
-        "state": "Após Gancho de Lava",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Altaroth",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Anjanath",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Apceros",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Aptonote",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Arzuros",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Kecha Wacha",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Astalos",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Carregado",
-        "type": "Rápido"
-      },
-      {
-        "state": "Voando",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Rathalos",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Baggi",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Barioth",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Barroth",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-            {
-        "state": "Coberto de Lama",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Basarios",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Bazelgeuse",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Diablos",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Gravios Tétrico",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Diablos Carnificina",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Yian Kut-Ku",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Bnahabra (Azul)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Bnahabra (Marrom)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Bnahabra (Verde)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Bnahabra (Vermelho)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Astalos Ceifarraios",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "1º Pouso",
-        "type": "Rápido"
-      },
-      {
-        "state": "2º Pouso",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Brachydios",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Tigrex",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Bulldrome",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Bullfango",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Cephadrome",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Cephalos",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Conga",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Congalala",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Qurupeco",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Hermitauro",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Rainha Seltas do Deserto",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Deviljho",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Diablos Negra",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Rathalos Maldito",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão/Enfurecido",
-        "type": "Rápido"
-      },
-      {
-        "state": "Voando",
-        "type": "Técnica"
-      },
-      {
-        "state": "Voando/Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Rathian Maldita",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Rathian Dourada",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Duramboros",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Gammoth Glaciarcaico",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Congalala Esmeralda",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Anjanath Fulgurante",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Gammoth",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Gargwa",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Gendrome",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Genprey",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Agnaktor Glacial",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-            {
-        "state": "Sem Arm. de Gelo",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Glavenus",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-            {
-        "state": "Após Brasa",
-        "type": "Técnica"
-      },
-            {
-        "state": "Após Chakram de Fogo",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Rathian",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Gravios",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Grande Baggi",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Bicho-Dragófago Grande",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Grande Jaggi",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Grande Insetrovão",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Nargacuga",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Plesioth",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Tigrex Ceifagarra",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Gypceros",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Glavenus Flâmina",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Hermitauro Daimyo",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-            {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Iodrome",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Ioprey",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Lagiacrus",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      },
-            {
-        "state": "Carregado",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Barroth de Jade",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      },
-            {
-        "state": "Coberto de Neve",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Jaggi",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Jaggia",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Kecha Wacha Cinzento",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Khezu",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Kirin",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Konchu (Azul)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Konchu (Verde)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Konchu (Amarelo)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Konchu (Vermelho)",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Kulu-Ya-Ku",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Kulve Taroth",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Kushala Daora",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      },
-            {
-        "state": "Voando",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Lagiacrus Marfim",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      },
-            {
-        "state": "Carregado",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Lagombi",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
+    "name": "Aptonoth",
+    "nameTranslate": "Aptonoth",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
     "name": "Larinoth",
-    "region": "Hakolo Island",
+    "nameTranslate": "Larinoth",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "state": "Default",
+        "type": "Power"
       }
     ]
   },
   {
-    "name": "Legiana",
-    "region": "Loloska",
+    "name": "Kelbi",
+    "nameTranslate": "Kelbi",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      }
+    ],
+    "elementalWeakness": null,
+    "parts": {},
+    "attackStates": []
+  },
+  {
+    "name": "Velociprey",
+    "nameTranslate": "Velociprey",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      },
-            {
-        "state": "Voando",
-        "type": "Força"
+        "state": "Default",
+        "type": "Technical"
       }
     ]
   },
   {
-    "name": "Ludroth",
-    "region": "Alcala",
+    "name": "Velocidrome",
+    "nameTranslate": "Velocídrome",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Mizutsune",
-    "region": "Lamure",
-    "attackStates": [
+    "name": "Kulu-Ya-Ku",
+    "nameTranslate": "Kulu-Ya-Ku",
+    "habitat": "Hakolo Island",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
       },
       {
-        "state": "Enfurecido",
-        "type": "Técnica"
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Rock": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Holding a Rock",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Tigrex Ardente",
-    "region": "Alcala",
+    "name": "Bnahabra (Blue)",
+    "nameTranslate": "Bnahabra (Azul)",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      },
-            {
-        "state": "Detonação",
-        "type": "Força"
+        "state": "Default",
+        "type": "Power"
       }
     ]
   },
   {
-    "name": "Monoblos",
-    "region": "Alcala",
-    "attackStates": [
+    "name": "Konchu (Yellow)",
+    "nameTranslate": "Konchu (Amarelo)",
+    "habitat": "Hakolo Island",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
       }
     ]
   },
   {
-    "name": "Nargacuga Verde",
-    "region": "Hakolo Island",
-    "attackStates": [
+    "name": "Yian Kut-Ku",
+    "nameTranslate": "Yian Kut-Ku",
+    "habitat": "Hakolo Island",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
       }
     ]
   },
   {
-    "name": "Nergigante",
-    "region": "Chefes / Monstros Reais",
+    "name": "Bullfango",
+    "nameTranslate": "Bullfango",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      },
-            {
-        "state": "Espinhos Brancos",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Nerscylla",
-    "region": "Loloska",
-    "attackStates": [
+    "name": "Bulldrome",
+    "nameTranslate": "Bulldrome",
+    "habitat": "Hakolo Island",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
       },
       {
-        "state": "Enfurecido",
-        "type": "Técnica"
+        "type": "eldersLair",
+        "main": "Z1"
       }
-    ]
-  },
-  {
-    "name": "Oroshi Kirin",
-    "region": "Chefes / Monstros Reais",
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
+        "state": "Default",
+        "type": "Speed"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      },
-           {
-        "state": "Aura de Gelo",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Paolumu",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Rathian Rosa",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Plesioth Verde",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Hermitauro Daimyo Ameixa",
-    "region": "Lamure",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Pôpo",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
+        "state": "Enraged",
+        "type": "Technical"
       }
     ]
   },
   {
     "name": "Pukei-Pukei",
-    "region": "Hakolo Island",
-    "attackStates": [
+    "nameTranslate": "Pukei-Pukei",
+    "habitat": "Hakolo Island",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Body": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Gypceros Roxo",
-    "region": "Loloska",
+    "name": "Apceros",
+    "nameTranslate": "Apceros",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Ludroth Roxo",
-    "region": "Alcala",
+    "name": "Slagtoth (Green)",
+    "nameTranslate": "Slagtoth (Verde)",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Qurupeco Rubro",
-    "region": "Alcala",
+    "name": "Gargwa",
+    "nameTranslate": "Gargwa",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Technical"
       }
     ]
   },
   {
-    "name": "Rajang",
-    "region": "Chefes / Monstros Reais",
+    "name": "Jaggi",
+    "nameTranslate": "Jaggi",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
-      },
-      {
-        "state": "Aura de Força",
-        "type": "Rápido"
-      },
-      {
-        "state": "Aura Rápida",
-        "type": "Técnica"
-      },
-      {
-        "state": "Aura Técnica",
-        "type": "Força"
+        "state": "Default",
+        "type": "Technical"
       }
     ]
   },
   {
-    "name": "Fatalis (Alta Dificuldade)",
-    "region": "Chefes / Monstros Reais",
+    "name": "Jaggia",
+    "nameTranslate": "Jaggia",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Após Chama Infernal",
-        "type": "Rápido"
-      },
-      {
-        "state": "Após Força do Céu",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Ratha",
-    "region": "Hakolo Island",
-    "attackStates": [
+    "name": "Great Jaggi",
+    "nameTranslate": "Grande Jaggi",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
       }
-    ]
-  },
-  {
-    "name": "Rathi",
-    "region": "Alcala",
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
+        "state": "Default",
+        "type": "Power"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "state": "Enraged",
+        "type": "Technical"
       }
     ]
   },
   {
-    "name": "Khezu Rubro",
-    "region": "Loloska",
-    "attackStates": [
+    "name": "Ludroth",
+    "nameTranslate": "Ludroth",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Royal Ludroth",
+    "nameTranslate": "Ludroth Real",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
       },
       {
-        "state": "Carregado",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Remobra",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Ludroth Real",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
+        "type": "coopQuest",
+        "main": "Woodland Den"
       },
       {
-        "state": "Enfurecido",
-        "type": "Força"
+        "type": "eldersLair",
+        "main": "Z4"
       }
-    ]
-  },
-  {
-    "name": "Basarios Rubi",
-    "region": "Alcala",
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "state": "Default",
+        "type": "Speed"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Barioth de Areia",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Seltas",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Rainha Seltas",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      },
-      {
-        "state": "Combinada",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Seregios",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Shakalaka",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Nerscylla Sombria",
-    "region": "Loloska",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Rathalos Prateado",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão/Enfurecido",
-        "type": "Rápido"
-      },
-      {
-        "state": "Voando",
-        "type": "Técnica"
-      },
-      {
-        "state": "Voando/Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Nargacuga Argentasa",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Slagtoth (Marrom)",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Slagtoth (Verde)",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Mizutsune Vatealma",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Zinogre Tenebroso",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Teostra",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-      {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "state": "Enraged",
+        "type": "Power"
       }
     ]
   },
   {
     "name": "Tetsucabra",
-    "region": "Alcala",
+    "nameTranslate": "Tetsucabra",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Harzgai Rocky Hill"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Rock": [
+        "blunt"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Zinogre Feralâmpago",
-    "region": "Hakolo Island",
-    "attackStates": [
+    "name": "Arzuros",
+    "nameTranslate": "Arzuros",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
       },
       {
-        "state": "Carregado",
-        "type": "Técnica"
+        "type": "eldersLair",
+        "main": "Z4"
       }
-    ]
-  },
-  {
-    "name": "Tigrex Bruto",
-    "region": "Alcala",
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "blunt"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Speed"
       },
       {
-        "state": "Enfurecido",
-        "type": "Técnica"
+        "state": "Enraged",
+        "type": "Power"
       }
     ]
   },
   {
-    "name": "Tobi-Kadachi",
-    "region": "Loloska",
-    "attackStates": [
+    "name": "Qurupeco",
+    "nameTranslate": "Qurupeco",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Etulle Lofty Trees"
       },
       {
-        "state": "Enfurecido",
-        "type": "Força"
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Head": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
       },
       {
-        "state": "Super Carregado",
-        "type": "Rápido"
+        "state": "Enraged",
+        "type": "Technical"
       }
     ]
   },
   {
-    "name": "Uragaan",
-    "region": "Terga",
-    "attackStates": [
+    "name": "Blue Yian Kut-Ku",
+    "nameTranslate": "Yian Kut-Ku Azul",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Rápido"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
       },
       {
-        "state": "Enfurecido",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Uroktor",
-    "region": "Terga",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Velkhana",
-    "region": "Chefes / Monstros Reais",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
-      },
-            {
-        "state": "Manto de Gelo",
-        "type": "Força"
-      },
-            {
-        "state": "Voando",
-        "type": "Rápido"
-      }
-    ]
-  },
-  {
-    "name": "Velocídrome",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Técnica"
+        "type": "coopQuest",
+        "main": "Woodland Den"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "eldersLair",
+        "main": "Z4"
       }
-    ]
-  },
-  {
-    "name": "Velociprey",
-    "region": "Hakolo Island",
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
-      }
-    ]
-  },
-  {
-    "name": "Vespoidea",
-    "region": "Hakolo Island",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Força"
-      }
-    ]
-  },
-  {
-    "name": "Monoblos Branco",
-    "region": "Alcala",
-    "attackStates": [
-      {
-        "state": "Padrão",
-        "type": "Rápido"
+        "state": "Default",
+        "type": "Power"
       },
       {
-        "state": "Enfurecido",
-        "type": "Técnica"
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Tigrex",
+    "nameTranslate": "Tigrex",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Harzgai Hill - Inner"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Legs": [
+        "slash",
+        "blunt",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Monoblos",
+    "nameTranslate": "Monoblos",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Harzgai Hill - Inner"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z3"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Stomach": [
+        "slash",
+        "pierce"
+      ],
+      "Horn": [
+        "pierce"
+      ],
+      "Legs": [
+        "pierce"
+      ],
+      "Tail": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Paolumu",
+    "nameTranslate": "Paolumu",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Wendwood"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Neck Pouch": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Inflated",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Basarios",
+    "nameTranslate": "Basarios",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Harzgai Rocky Hill"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Stomach": [
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Wing": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
       }
     ]
   },
   {
     "name": "Yian Garuga",
-    "region": "Alcala",
-    "attackStates": [
+    "nameTranslate": "Yian Garuga",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Yian Kut-Ku Azul",
-    "region": "Hakolo Island",
-    "attackStates": [
+    "name": "Duramboros",
+    "nameTranslate": "Duramboros",
+    "habitat": "Alcala",
+    "locations": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Wendwood"
       },
       {
-        "state": "Enfurecido",
-        "type": "Técnica"
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash"
+      ],
+      "Tail": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
       }
     ]
   },
   {
-    "name": "Zamites",
-    "region": "Loloska",
+    "name": "Nargacuga",
+    "nameTranslate": "Nargacuga",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Stomach": [
+        "pierce"
+      ],
+      "Tail": [
+        "pierce"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Rathian",
+    "nameTranslate": "Rathian",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Highlands"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Popo",
+    "nameTranslate": "Pôpo",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Blue)",
+    "nameTranslate": "Konchu (Azul)",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra (Green)",
+    "nameTranslate": "Bnahabra (Verde)",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Conga",
+    "nameTranslate": "Conga",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Congalala",
+    "nameTranslate": "Congalala",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Baggi",
+    "nameTranslate": "Baggi",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Great Baggi",
+    "nameTranslate": "Grande Baggi",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Kecha Wacha",
+    "nameTranslate": "Kecha Wacha",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Claws": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Gypceros",
+    "nameTranslate": "Gypceros",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Zamite",
+    "nameTranslate": "Zamites",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
       }
     ]
   },
   {
     "name": "Zamtrios",
-    "region": "Loloska",
+    "nameTranslate": "Zamtrios",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "blunt",
+        "pierce"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "state": "Default",
+        "type": "Power"
       },
       {
-        "state": "Coberto de Gelo",
-        "type": "Técnica"
+        "state": "Covered In Ice",
+        "type": "Technical"
       },
       {
-        "state": "Inflado",
-        "type": "Rápido"
+        "state": "Inflated",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Nerscylla",
+    "nameTranslate": "Nerscylla",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z4"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Chest": [
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Needle": [
+        "pierce"
+      ],
+      "Legs": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Barroth",
+    "nameTranslate": "Barroth",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "pierce"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Covered In Mud",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Tobi-Kadachi",
+    "nameTranslate": "Tobi-Kadachi",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "slash"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      },
+      {
+        "state": "Overcharged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Khezu",
+    "nameTranslate": "Khezu",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Red Khezu",
+    "nameTranslate": "Khezu Rubro",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Charged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Seltas",
+    "nameTranslate": "Seltas",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Stomach": [
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Seltas Queen",
+    "nameTranslate": "Rainha Seltas",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Head": [
+        "pierce"
+      ],
+      "Legs": [
+        "blunt"
+      ],
+      "Seltas": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      },
+      {
+        "state": "Combined",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Lagombi",
+    "nameTranslate": "Lagombi",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Legs": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Jade Barroth",
+    "nameTranslate": "Barroth Jade",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "pierce"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      },
+      {
+        "state": "Covered In Snow",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Anjanath",
+    "nameTranslate": "Anjanath",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Nose": [
+        "slash",
+        "blunt",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Gammoth",
+    "nameTranslate": "Gammoth",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Woodland"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Nose": [
+        "slash"
+      ],
+      "Legs": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
       }
     ]
   },
   {
     "name": "Zinogre",
-    "region": "Hakolo Island",
+    "nameTranslate": "Zinogre",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Head": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Técnica"
+        "state": "Default",
+        "type": "Technical"
       },
       {
-        "state": "Carregado",
-        "type": "Força"
+        "state": "Charged",
+        "type": "Power"
       },
       {
-        "state": "Super Carregado",
-        "type": "Rápido"
+        "state": "Supercharged",
+        "type": "Speed"
       }
     ]
   },
   {
-    "name": "Oltura",
-    "region": "Chefes / Monstros Reais",
+    "name": "Barioth",
+    "nameTranslate": "Barioth",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Stomach": [
+        "slash",
+        "pierce"
+      ],
+      "Spikes": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
     "attackStates": [
       {
-        "state": "Padrão",
-        "type": "Força"
+        "state": "Default",
+        "type": "Technical"
       },
       {
-        "state": "Enfurecido",
-        "type": "Rápido"
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Legiana",
+    "nameTranslate": "Legiana",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
       },
       {
-        "state": "4 Asas",
-        "type": "Técnica"
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
       },
       {
-        "state": "4 Asas/Enfurecido",
-        "type": "Força"
+        "type": "coopQuest",
+        "main": "Palamute Den"
       },
       {
-        "state": "6 Asas",
-        "type": "Rápido"
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Wings": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
       },
       {
-        "state": "6 Asas/Enfurecido",
-        "type": "Técnica"
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Slagtoth (Brown)",
+    "nameTranslate": "Slagtoth (Marrom)",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra (Brown)",
+    "nameTranslate": "Bnahabra (Marrom)",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Red)",
+    "nameTranslate": "Konchu (Vermelho)",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Cephalos",
+    "nameTranslate": "Cephalos",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Hermitaur",
+    "nameTranslate": "Hermitauro",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Uroktor",
+    "nameTranslate": "Uroktor",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Ioprey",
+    "nameTranslate": "Ioprey",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Iodrome",
+    "nameTranslate": "Iodrome",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Genprey",
+    "nameTranslate": "Genprey",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower - 3F"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Gendrome",
+    "nameTranslate": "Gendrome",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower - 3F"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Plesioth",
+    "nameTranslate": "Plesioth",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Body": [
+        "slash",
+        "pierce"
+      ],
+      "Back": [
+        "pierce"
+      ],
+      "Tail": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Cephadrome",
+    "nameTranslate": "Cephadrome",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z3"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Stomach": [
+        "blunt"
+      ],
+      "Back": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Ash Kecha Wacha",
+    "nameTranslate": "Kecha Wacha Cinzento",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower Front"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Claws": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Purple Gypceros",
+    "nameTranslate": "Gypceros Púrpura",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower Front"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Green Nargacuga",
+    "nameTranslate": "Nargacuga Verde",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Stomach": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Diablos",
+    "nameTranslate": "Diablos",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower Front"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Horn": [
+        "blunt"
+      ],
+      "Legs": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Black Diablos",
+    "nameTranslate": "Diablos Negra",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Lamure Tower - 5F"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z3"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Horn": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "White Monoblos",
+    "nameTranslate": "Monoblos Alvo",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Jalma Highlands"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Horn": [
+        "pierce"
+      ],
+      "Legs": [
+        "pierce"
+      ],
+      "Tail": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Crimson Qurupeco",
+    "nameTranslate": "Qurupeco Rubro",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Head": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Mizutsune",
+    "nameTranslate": "Mizutsune",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Lagiacrus",
+    "nameTranslate": "Lagiacrus",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Tail": [
+        "blunt"
+      ],
+      "Back": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      },
+      {
+        "state": "Electrified",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Uragaan",
+    "nameTranslate": "Uragaan",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Daimyo Hermitaur",
+    "nameTranslate": "Hermitauro Daimyo",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z2"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "Shell": [
+        "blunt"
+      ],
+      "Claws": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Plum Daimyo Hermitaur",
+    "nameTranslate": "Hermitauro Daimyo Ameixa",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Monster Research Lab"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "Shell": [
+        "blunt"
+      ],
+      "Claws": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Brute Tigrex",
+    "nameTranslate": "Tigrex Bruto",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Legs": [
+        "slash",
+        "blunt",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Purple Ludroth",
+    "nameTranslate": "Ludroth Púrpura",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Sadona Barrens"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Ruby Basarios",
+    "nameTranslate": "Basarios Rubi",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "Stomach": [
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Wing": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Gravios",
+    "nameTranslate": "Gravios",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Stomach": [
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Altaroth",
+    "nameTranslate": "Altaroth",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Great Thunderbug",
+    "nameTranslate": "Grande Insetrovão",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Konchu (Green)",
+    "nameTranslate": "Konchu (Verde)",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Shakalaka",
+    "nameTranslate": "Shakalaka",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "blunt",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Desert Seltas Queen",
+    "nameTranslate": "Rainha Seltas do Deserto",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Legs": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Green Plesioth",
+    "nameTranslate": "Plesioth Verde",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Back": [
+        "pierce"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Shrouded Nerscylla",
+    "nameTranslate": "Nerscylla Sombria",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Chest": [
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Needle": [
+        "pierce"
+      ],
+      "Legs": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Emerald Congalala",
+    "nameTranslate": "Congalala Esmeralda",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Agnaktor",
+    "nameTranslate": "Agnaktor",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Body": [
+        "slash",
+        "pierce"
+      ],
+      "Head": [
+        "slash",
+        "pierce"
+      ],
+      "Tail": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Molten Armor",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Black Gravios",
+    "nameTranslate": "Gravios Tétrico",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Stomach": [
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Ivory Lagiacrus",
+    "nameTranslate": "Lagiacrus Marfim",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Tail": [
+        "pierce"
+      ],
+      "Back": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Electrified",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Brachydios",
+    "nameTranslate": "Brachydios",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Body": [
+        "slash"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Tail": [
+        "pierce"
+      ],
+      "Fists": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Nergigante",
+    "nameTranslate": "Nergigante",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Nergigante"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash"
+      ],
+      "Wings": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      },
+      {
+        "state": "White spiked",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Astalos",
+    "nameTranslate": "Astalos",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ],
+      "Wings": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Electrified",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Glavenus",
+    "nameTranslate": "Glavenus",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z6"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Head": [
+        "slash",
+        "pierce"
+      ],
+      "Tail": []
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "After Blaze",
+        "type": "Technical"
+      },
+      {
+        "state": "After Fire Chakram",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Glacial Agnaktor",
+    "nameTranslate": "Agnaktor Glacial",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "Head": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Tail": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      },
+      {
+        "state": "No Ice Armor",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Bazelgeuse",
+    "nameTranslate": "Bazelgeuse",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Wings": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Remobra",
+    "nameTranslate": "Remobra",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Great Dracophage Bug",
+    "nameTranslate": "Inseto Dracófago Grande",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Bnahabra (Red)",
+    "nameTranslate": "Bnahabra (Vermelho)",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Vespoid",
+    "nameTranslate": "Vespoidea",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Sand Barioth",
+    "nameTranslate": "Barioth de Areia",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "pierce"
+      ],
+      "Stomach": [
+        "slash",
+        "pierce"
+      ],
+      "Spikes": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Deviljho",
+    "nameTranslate": "Deviljho",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Body": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Head": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Legs": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Stygian Zinogre",
+    "nameTranslate": "Zinogre Tenebroso",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "pierce"
+      ],
+      "Body": [
+        "pierce"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Seregios",
+    "nameTranslate": "Seregios",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "Forbidden Grounds"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Head": [
+        "pierce"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ],
+      "Wings": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Barrel Felyne",
+    "nameTranslate": "Felyne Barril",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "none",
+    "parts": {},
+    "attackStates": []
+  },
+  {
+    "name": "Rathalos",
+    "nameTranslate": "Rathalos",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "Head": [
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Wings": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Azure Rathalos",
+    "nameTranslate": "Rathalos Lazúli",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "North Kamuna Cape"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "Head": [
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Wings": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Pink Rathian",
+    "nameTranslate": "Rathian Rosa",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z1"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "Body": [
+        "slash"
+      ],
+      "Tail": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Fulgur Anjanath",
+    "nameTranslate": "Anjanath Fulgurante",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den"
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z5"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "Body": [
+        "pierce"
+      ],
+      "Nose": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ],
+      "Tails": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Silverwind Nargacuga",
+    "nameTranslate": "Nargacuga Argentasa",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "East Kamuna Heights"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Hakolo Island"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "Head": [
+        "blunt"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Tail": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Thunderlord Zinogre",
+    "nameTranslate": "Zinogre Feralâmpago",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Rocky Canyon"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Loloska"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "Head": [
+        "slash"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Charged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Bloodbath Diablos",
+    "nameTranslate": "Diablos Carnificina",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Jalma Highlands"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Lamure"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Horn": [
+        "slash",
+        "pierce"
+      ],
+      "Stomach": [
+        "blunt"
+      ],
+      "Legs": [
+        "blunt",
+        "pierce"
+      ],
+      "Tail": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Grimclaw Tigrex",
+    "nameTranslate": "Tigrex Ceifagarra",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Alcala Valley"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Alcala"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "Head": [
+        "slash"
+      ],
+      "Stomach": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Dreadqueen Rathian",
+    "nameTranslate": "Rathian Maldita",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Terga"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z8"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "Head": [
+        "slash",
+        "blunt"
+      ],
+      "Stomach": [
+        "slash"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Back": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Kirin",
+    "nameTranslate": "Kirin",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Lamure"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Hakolo Island"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Phantom Beast Kirin"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "Head": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Teostra",
+    "nameTranslate": "Teostra",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Hakolo Island"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Terga"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flame King Teostra"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Jungle Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Head": [
+        "slash",
+        "blunt"
+      ],
+      "Stomach": [
+        "blunt",
+        "pierce"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ],
+      "Wings": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Rajang",
+    "nameTranslate": "Rajang",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "superRareDen",
+        "main": "Alcala"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Loloska"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "Head": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Legs": [
+        "slash"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Kushala Daora",
+    "nameTranslate": "Kushala Daora",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Etulle Lofty Trees"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Alcala"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Lamure"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Kushala Daora"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Woodland Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Desert Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Flowery Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den",
+        "finalNest": true
+      },
+      {
+        "type": "eldersLair",
+        "main": "Z9"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "Head": [
+        "slash",
+        "blunt",
+        "pierce"
+      ],
+      "Stomach": [
+        "blunt"
+      ],
+      "Tail": [
+        "pierce"
+      ],
+      "Wings": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Velkhana",
+    "nameTranslate": "Velkhana",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Base of Mt. Lavina"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Loloska"
+      },
+      {
+        "type": "superRareDen",
+        "main": "Terga"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Velkhana"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Snowy Mt. Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Volcanic Den",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs",
+        "finalNest": true,
+        "srTicket": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "Head": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Wings": [
+        "pierce"
+      ],
+      "Frost Scale": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Ice Mantle",
+        "type": "Power"
+      },
+      {
+        "state": "Flying",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Boltreaver Astalos",
+    "nameTranslate": "Astalos Ceifarraios",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Harzgai Hill - Inner"
+      },
+      {
+        "type": "subQuest",
+        "main": "Lightning Revolt"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Boltreaver Astalos"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Thunder Eggs",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Wings": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "1st Landing",
+        "type": "Speed"
+      },
+      {
+        "state": "2nd Landing",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Hellblade Glavenus",
+    "nameTranslate": "Glavenus Flâmina",
+    "habitat": "Terga",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Terga",
+        "sub": "Terga Volcano Base"
+      },
+      {
+        "type": "subQuest",
+        "main": "Psychoblaze Black Knight"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Hellblade Glavenus"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fire Eggs",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "Head": [
+        "slash"
+      ],
+      "Body": [
+        "blunt"
+      ],
+      "Tail": [
+        "slash"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Kulve Taroth",
+    "nameTranslate": "Kulve Taroth",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "The Goddess of Gold"
+      }
+    ],
+    "elementalWeakness": {
+      "DEFAULT": "thunder",
+      "No Mantle": "ice"
+    },
+    "parts": {
+      "Horn": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "pierce",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Power"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "No Mantle",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Elderfrost Gammoth",
+    "nameTranslate": "Gammoth Glaciarcaico",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Lavina Glacial Peaks"
+      },
+      {
+        "type": "subQuest",
+        "main": "Unconquerable Mountain"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elderfrost Gammoth"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Ice Eggs",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "blunt"
+      ],
+      "Head": [
+        "blunt"
+      ],
+      "Nose": [
+        "slash"
+      ],
+      "Tail": [
+        "slash"
+      ],
+      "Legs": [
+        "blunt"
+      ],
+      "Body": [
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Soulseer Mizutsune",
+    "nameTranslate": "Mizutsune Vatealma",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Pomore Garden"
+      },
+      {
+        "type": "subQuest",
+        "main": "Heavenly Eye"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Soulseer Mizutsune"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Water Eggs",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Fated Four Den",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Oroshi Kirin",
+    "nameTranslate": "Kirin Oroshi",
+    "habitat": "Loloska",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Loloska",
+        "sub": "Loloska Forest"
+      },
+      {
+        "type": "subQuest",
+        "main": "Ice Phantom"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Oroshi Kirin"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Elder Dragon Den",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "slash",
+        "blunt"
+      ],
+      "Body": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Ice Aura",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Molten Tigrex",
+    "nameTranslate": "Tigrex Ardente",
+    "habitat": "Lamure",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Lamure",
+        "sub": "Jalma Highlands"
+      },
+      {
+        "type": "subQuest",
+        "main": "Sky-Rending Roar"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Molten Tigrex"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dragon Eggs",
+        "finalNest": true
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "pierce"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Legs": [
+        "slash",
+        "blunt",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Technical"
+      },
+      {
+        "state": "Detonation",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Dreadking Rathalos",
+    "nameTranslate": "Rathalos Maldito",
+    "habitat": "Hakolo Island",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Hakolo Island",
+        "sub": "East Kamuna Heights"
+      },
+      {
+        "type": "subQuest",
+        "main": "King Among Kings"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Dreadking Rathalos"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Deviant Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ],
+      "Wings": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Technical"
+      },
+      {
+        "state": "Flying Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Gold Rathian",
+    "nameTranslate": "Rathian Dourada",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Wendwood"
+      },
+      {
+        "type": "subQuest",
+        "main": "Full Golden Moon"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Gold Rathian"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {
+      "DEFAULT": [
+        "pierce",
+        "blunt"
+      ],
+      "Head": [
+        "slash",
+        "blunt"
+      ],
+      "Stomach": [
+        "pierce",
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      }
+    ]
+  },
+  {
+    "name": "Silver Rathalos",
+    "nameTranslate": "Rathalos Prateado",
+    "habitat": "Alcala",
+    "locations": [
+      {
+        "type": "catavanStand",
+        "main": "Alcala",
+        "sub": "Etulle Lofty Trees"
+      },
+      {
+        "type": "subQuest",
+        "main": "Shining Silver Sun"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Silver Rathalos"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Rare/Subspecies Den",
+        "finalNest": true
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {
+      "DEFAULT": [
+        "slash",
+        "blunt"
+      ],
+      "Head": [
+        "slash"
+      ],
+      "Stomach": [
+        "slash",
+        "blunt"
+      ],
+      "Tail": [
+        "slash",
+        "blunt"
+      ],
+      "Wings": [
+        "slash",
+        "pierce"
+      ]
+    },
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Speed"
+      },
+      {
+        "state": "Enraged",
+        "type": "Speed"
+      },
+      {
+        "state": "Flying",
+        "type": "Technical"
+      },
+      {
+        "state": "Flying Enraged",
+        "type": "Power"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Normal)",
+    "nameTranslate": "Palamute (Padrão)",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "Palamute Den"
+      },
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {},
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Fire)",
+    "nameTranslate": "Palamute (Fogo)",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      }
+    ],
+    "elementalWeakness": "water",
+    "parts": {},
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Water)",
+    "nameTranslate": "Palamute (Água)",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      }
+    ],
+    "elementalWeakness": "dragon",
+    "parts": {},
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Thunder)",
+    "nameTranslate": "Palamute (Trovão)",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      }
+    ],
+    "elementalWeakness": "ice",
+    "parts": {},
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Ice)",
+    "nameTranslate": "Palamute (Gelo)",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      }
+    ],
+    "elementalWeakness": "fire",
+    "parts": {},
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
+      }
+    ]
+  },
+  {
+    "name": "Palamute (Dragon)",
+    "nameTranslate": "Palamute (Dragão)",
+    "habitat": null,
+    "locations": [
+      {
+        "type": "coopQuest",
+        "main": "Palamute Home"
+      }
+    ],
+    "elementalWeakness": "thunder",
+    "parts": {},
+    "attackStates": [
+      {
+        "state": "Default",
+        "type": "Technical"
       }
     ]
   }
