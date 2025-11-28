@@ -66,7 +66,7 @@ const MONSTER_NAME_TRANSLATIONS = {
     "Great Jaggi": "Grande Jaggi",
     "Royal Ludroth": "Ludroth Real",
     "Ash Kecha Wacha": "Kecha Wacha Cinzento",
-    "Purple Gypceros": "Gypceros Púrpura",
+    "Purple Gypceros": "Gypceros Roxo",
     "Green Nargacuga": "Nargacuga Verde",
     "Black Diablos": "Diablos Negra",
     "White Monoblos": "Monoblos Alvo",
