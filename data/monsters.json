@@ -9887,7 +9887,7 @@
     "no": 122,
     "name": "Oltura",
     "genus": "Elder Dragon",
-    "habitat": "Unknown",
+    "habitat": null,
     "locations": [
       {
         "type": "story",

@@ -6,7 +6,6 @@ let filters = {
     region: 'all'
 };
 
-// Mapeamento para correções de imagem manuais (caso o nome do arquivo seja muito diferente)
 const IMAGE_EXCEPTIONS = {
     "Fatalis": "_Unknown.webp"
 };
@@ -23,14 +22,18 @@ const HABITAT_CORRECTION_MAP = {
     "Terga Volcano": "Terga Volcano",
     "Fuji Snowfields": "Fuji Snowfields",
     "Lulucion": "Lulucion",
-    "Mt. Ena Lava Caves": "Mt. Ena Lava Caves"
+    "Mt. Ena Lava Caves": "Mt. Ena Lava Caves",
+    "Pomore Garden": "Pomore Garden",
+    "Guardian Ratha Woods": "Guardian Ratha Woods",
+    "Elder's Lair": "Elder's Lair",
+    "Unknown": "Unknown"
 };
 
 document.addEventListener('DOMContentLoaded', async () => {
     allMonsters = await loadMonsters();
     if (allMonsters.length === 0) return;
     
-    // Ordenação alfabética pelo nome traduzido
+    // Ordenação alfabética
     allMonsters.sort((a, b) => {
         const nameA = MONSTER_NAME_TRANSLATIONS[a.name] || a.name;
         const nameB = MONSTER_NAME_TRANSLATIONS[b.name] || b.name;
@@ -48,7 +51,6 @@ async function loadMonsters() {
         if (!res.ok) throw new Error();
 
         const rawText = await res.text();
-        // Remove comentários // do JSON
         const cleanText = rawText.replace(/\\"|"(?:\\"|[^"])*"|(\/\/.*)/g, (match, group1) => {
             return group1 ? "" : match;
         });
@@ -75,25 +77,63 @@ function invertAttackPatterns(patternsObj) {
     return inverted;
 }
 
+// --- FUNÇÃO PARA GERAR HTML DAS PARTES E ARMAS ---
+function generatePartsHTML(monsterParts) {
+    if (!monsterParts || Object.keys(monsterParts).length === 0) {
+        return '<p style="text-align:center; font-size:0.9em; color:var(--text-secondary);">Sem informações de partes.</p>';
+    }
+
+    let html = '<div class="parts-container">';
+    
+    for (const [partName, weapons] of Object.entries(monsterParts)) {
+        const translatedPart = PART_TRANSLATIONS[partName] || partName;
+        
+        let weaponsHtml = '';
+        if (Array.isArray(weapons) && weapons.length > 0) {
+            weaponsHtml = weapons.map(weapon => {
+                const weaponLower = weapon.toLowerCase(); // 'slash', 'blunt', 'pierce'
+                const weaponName = WEAPON_TYPE_TRANSLATIONS[weaponLower] || weapon;
+                
+                // Caminho exato solicitado: assets/icons/weapon-{tipo}.svg
+                return `<img src="assets/icons/weapon-${weaponLower}.svg" 
+                             title="${weaponName}" 
+                             alt="${weaponName}" 
+                             class="weapon-icon-small">`;
+            }).join('');
+        } else {
+            weaponsHtml = '<span style="font-size:0.8em; color:var(--text-secondary);">—</span>';
+        }
+
+        html += `
+            <div class="part-row">
+                <span class="part-name">${translatedPart}</span>
+                <div class="part-weaknesses">${weaponsHtml}</div>
+            </div>
+        `;
+    }
+
+    html += '</div>';
+    return html;
+}
+
 function createMonsterCard(monster, index) {
     const combatData = monster.monster || {};
     const nomeOriginal = monster.name;
     const nomeTraduzido = MONSTER_NAME_TRANSLATIONS[nomeOriginal] || nomeOriginal;
     
-    // Normalização de Habitat e Tradução (inclui __NULL_REGION__ -> Qualquer Lugar)
     const rawHabitat = monster.habitat;
     const normalizedHabitatKey = HABITAT_CORRECTION_MAP[rawHabitat] || rawHabitat || '__NULL_REGION__';
     const regiao = REGION_TRANSLATIONS[normalizedHabitatKey] || normalizedHabitatKey;
 
-    // Fraqueza
     const weaknessRaw = combatData.elementalWeakness;
     let weaknessKey = "None";
     if (typeof weaknessRaw === "string" && weaknessRaw.trim()) {
         weaknessKey = weaknessRaw.charAt(0).toUpperCase() + weaknessRaw.slice(1).toLowerCase();
+    } else if (typeof weaknessRaw === "object" && weaknessRaw !== null) {
+        weaknessKey = weaknessRaw["DEFAULT"] ? weaknessRaw["DEFAULT"].charAt(0).toUpperCase() + weaknessRaw["DEFAULT"].slice(1) : "None";
     }
     const fraqueza = ELEMENT_TRANSLATIONS[weaknessKey] || "—";
 
-    // Padrões de Ataque
     let attackStatesHTML = '';
     const invertedPatterns = invertAttackPatterns(combatData.attackPatterns || {});
     const patternEntries = Object.entries(invertedPatterns);
@@ -101,7 +141,7 @@ function createMonsterCard(monster, index) {
     if (patternEntries.length > 0) {
         patternEntries.forEach(([stateRaw, typeRaw]) => {
             let stateName = ATTACK_STATE_TRANSLATIONS[stateRaw] || stateRaw;
-            if (stateRaw === 'DEFAULT') stateName = 'Normal';
+            if (stateRaw === 'DEFAULT') stateName = 'Padrão';
 
             const typeLower = typeRaw ? typeRaw.toLowerCase() : "none";
             const typeCapitalized = typeLower.charAt(0).toUpperCase() + typeLower.slice(1);
@@ -127,9 +167,6 @@ function createMonsterCard(monster, index) {
             </div>`;
     }
     
-    // Geração Dinâmica de Imagens (CORREÇÃO DO ERRO AQUI)
-    // Em vez de usar monster_icons[...] e monster_eggs[...], usamos o nome direto.
-    
     const iconFile = IMAGE_EXCEPTIONS[nomeOriginal] || `${nomeOriginal}.webp`;
     const iconPath = `assets/monster_icons/${iconFile}`;
 
@@ -141,8 +178,12 @@ function createMonsterCard(monster, index) {
                         style="object-fit:contain;">`;
     }
     
+    // GERAÇÃO DO HTML DAS PARTES
+    const partsHTML = generatePartsHTML(combatData.parts);
+
+    // Adiciona o evento onclick="toggleCard(this)"
     return `
-    <div class="monster-card">
+    <div class="monster-card" onclick="toggleCard(this)">
         <div class="card-image-section">
             <img src="${iconPath}" 
                  alt="${nomeTraduzido}" 
@@ -169,7 +210,17 @@ function createMonsterCard(monster, index) {
                 </div>
             </div>
         </div>
+
+        <div class="monster-details">
+            <div class="parts-title">Partes Quebráveis & Fraquezas</div>
+            ${partsHTML}
+        </div>
     </div>`;
+}
+
+// --- FUNÇÃO PARA ABRIR/FECHAR O CARD ---
+function toggleCard(element) {
+    element.classList.toggle('active');
 }
 
 function initFilters() {
@@ -253,12 +304,14 @@ function initTheme() {
     const html = document.documentElement;
     const saved = localStorage.getItem('theme') || 'light';
     html.setAttribute('data-theme', saved);
-    btn.textContent = saved === 'dark' ? 'Modo Claro' : 'Modo Escuro';
+    if(btn) btn.textContent = saved === 'dark' ? 'Modo Claro' : 'Modo Escuro';
 
-    btn.onclick = () => {
-        const novo = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-        html.setAttribute('data-theme', novo);
-        localStorage.setItem('theme', novo);
-        btn.textContent = novo === 'dark' ? 'Modo Claro' : 'Modo Escuro';
-    };
+    if(btn) {
+        btn.onclick = () => {
+            const novo = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            html.setAttribute('data-theme', novo);
+            localStorage.setItem('theme', novo);
+            btn.textContent = novo === 'dark' ? 'Modo Claro' : 'Modo Escuro';
+        };
+    }
 }

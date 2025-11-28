@@ -1,14 +1,24 @@
 // js/translations.js
 
 const REGION_TRANSLATIONS = {
-    "__NULL_REGION__": "Qualquer Lugar", // CORREÇÃO SOLICITADA
+    "__NULL_REGION__": "Qualquer Lugar",
     "Hakolo Island": "Ilha de Hakolo",
     "Alcala Highlands": "Terras Altas de Alcala",
     "Loloska Forest": "Floresta de Loloska",
     "Lamure Desert": "Deserto de Lamure",
     "Terga Volcano": "Vulcão de Terga",
     "Fuji Snowfields": "Campos Nevados de Fuji",
-    "Mt. Ena Lava Caves": "Cavernas de Lava do Monte Ena"
+    "Mt. Ena Lava Caves": "Cavernas de Lava do Monte Ena",
+    "Pomore Garden": "Jardim de Pomore",
+    "Jalma Highlands": "Terras Altas de Jalma",
+    "Harzgai Rocky Hill": "Colina Rochosa de Harzgai",
+    "Etulle Lofty Trees": "Árvores Altas de Etulle",
+    "Sadona Barrens": "Deserto de Sadona",
+    "Lavina Glacial Peaks": "Picos Glaciais de Lavina",
+    "Lulucion": "Lulucion",
+    "Guardian Ratha Woods": "Bosque do Ratha Guardião",
+    "Elder's Lair": "Covil do Ancião",
+    "Unknown": "Desconhecido"
 };
 
 const ELEMENT_TRANSLATIONS = {
@@ -27,10 +37,13 @@ const ATTACK_TRANSLATIONS = {
     "None": "—"
 };
 
+// Traduções completas de estados (incluindo bosses e variantes)
 const ATTACK_STATE_TRANSLATIONS = {
     "Default": "Padrão",
+    "DEFAULT": "Padrão",
     "Enraged": "Enfurecido",
-    "Holding a Rock": "Segurando uma Pedra",
+    "Holding a rock": "Segurando uma pedra",
+    "Rock": "Com Pedra",
     "Covered In Mud": "Coberto de Lama",
     "Covered In Snow": "Coberto de Neve",
     "Covered In Ice": "Coberto de Gelo",
@@ -42,21 +55,73 @@ const ATTACK_STATE_TRANSLATIONS = {
     "Electrified": "Eletrificado",
     "White spiked": "Espinhos Brancos",
     "Flying": "Voando",
-    "After Blaze": "Após Chama",
+    "Flying Enraged": "Voando (Enfurecido)",
+    "After Blaze": "Após Chamas",
     "After Fire Chakram": "Após Chakram de Fogo",
     "Ice Mantle": "Manto de Gelo",
     "1st Landing": "1º Pouso",
     "2nd Landing": "2º Pouso",
     "Ice Aura": "Aura de Gelo",
     "Detonation": "Detonação",
-    "Flying Enraged": "Voando Enfurecido",
     "Supercharged": "Supercarregado",
     "Overcharged": "Sobrecarregado",
-    "After Molten Uppercut": "Após Gancho Derretido",
-    "No Mantle": "Sem Manto"
+    "After Molten Uppercut": "Após Gancho Magmático",
+    "No Mantle": "Sem Manto",
+    "Dragon Surge": "Surto do Dragão",
+    "Groomed": "Limpo/Preparado",
+    "Burning": "Queimando",
+    // Oltura
+    "2-Wings (Initial)": "2 Asas (Inicial)",
+    "2-Wings (Enraged)": "2 Asas (Enfurecido)",
+    "4-Wings (Transition)": "4 Asas (Transição)",
+    "4-Wings (Enraged)": "4 Asas (Enfurecido)",
+    "6-Wings (Final)": "6 Asas (Final)",
+    "6-Wings (Enraged)": "6 Asas (Enfurecido)",
+    // Fatalis
+    "Phase 1": "Fase 1",
+    "Phase 1 (Enraged)": "Fase 1 (Enfurecido)",
+    "Phase 2 (50% HP)": "Fase 2 (50% Vida)",
+    "Phase 2 (Enraged)": "Fase 2 (Enfurecido)",
+    "Phase 3 (20% HP)": "Fase 3 (20% Vida)",
+    "Phase 3 (Enraged)": "Fase 3 (Enfurecido)"
 };
 
-// APENAS OS NOMES QUE MUDAM EM PORTUGUÊS
+// Traduções das partes do corpo
+const PART_TRANSLATIONS = {
+    "Head": "Cabeça",
+    "Body": "Corpo",
+    "Stomach": "Estômago",
+    "Legs": "Pernas",
+    "Tail": "Cauda",
+    "Wings": "Asas",
+    "Horn": "Chifre",
+    "Claws": "Garras",
+    "Rock": "Pedra",
+    "Nose": "Focinho",
+    "Needle": "Ferrão",
+    "Spikes": "Espinhos",
+    "Shell": "Concha",
+    "Chest": "Peito",
+    "Back": "Costas",
+    "Fists": "Punhos",
+    "Frost Scale": "Escama Gélida",
+    "Neck Pouch": "Bolsa do Pescoço",
+    "Seltas": "Seltas (Montado)",
+    "Wing": "Asa",
+    "Tails": "Caudas",
+    "Left Wing": "Asa Esq.",
+    "Right Wing": "Asa Dir.",
+    "Ray (Wings)": "Raios (Asas)",
+    "DEFAULT": "Geral"
+};
+
+// Traduções dos tipos de arma
+const WEAPON_TYPE_TRANSLATIONS = {
+    "slash": "Cortante",
+    "blunt": "Contundente",
+    "pierce": "Perfurante"
+};
+
 const MONSTER_NAME_TRANSLATIONS = {
     "Velocidrome": "Velocídrome",
     "Bnahabra (Blue)": "Bnahabra (Azul)",
@@ -137,5 +202,6 @@ const ORDEM_REGIOES = [
     "Fuji Snowfields",
     "Lulucion",
     "Mt. Ena Lava Caves",
-    "__NULL_REGION__" // Garante que apareça no final se necessário
+    "Pomore Garden",
+    "__NULL_REGION__"
 ];

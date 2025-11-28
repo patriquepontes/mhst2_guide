@@ -261,3 +261,104 @@ h1 {
 .weakness-text {
     font-weight: 500;
 }
+
+/* --- 8. EXPANSÃO DO CARD E DETALHES DE PARTES --- */
+
+.monster-card {
+    cursor: pointer; /* Indica que é clicável */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    position: relative;
+    padding-bottom: 40px; /* Espaço para o indicador de "ver mais" */
+}
+
+.monster-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-color: var(--accent-color);
+}
+
+/* Indicador visual de expansão */
+.monster-card::after {
+    content: "▼ Ver Detalhes";
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 0.8em;
+    color: var(--text-secondary);
+    opacity: 0.7;
+    transition: opacity 0.3s;
+}
+
+.monster-card.active::after {
+    content: "▲ Ocultar Detalhes";
+    opacity: 1;
+    color: var(--accent-color);
+}
+
+/* Área de detalhes (inicialmente oculta) */
+.monster-details {
+    display: none;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 2px dashed var(--border-color);
+    animation: slideDown 0.3s ease-out;
+}
+
+.monster-card.active .monster-details {
+    display: block;
+}
+
+@keyframes slideDown {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Título da seção de partes */
+.parts-title {
+    font-size: 1em;
+    font-weight: bold;
+    color: var(--accent-color);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Container das partes */
+.parts-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+/* Linha de cada parte */
+.part-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--bg-primary);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 0.9em;
+}
+
+.part-name {
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Ícones de fraqueza da parte */
+.part-weaknesses {
+    display: flex;
+    gap: 5px;
+}
+
+.weapon-icon-small {
+    width: 20px;
+    height: 20px;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.2));
+}
+
+/* Tooltip simples para armas */
+.weapon-icon-small:hover {
+    transform: scale(1.2);
+}
