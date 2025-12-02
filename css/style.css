@@ -362,3 +362,268 @@ h1 {
 .weapon-icon-small:hover {
     transform: scale(1.2);
 }
+/* --- ADICIONAR NO FINAL DO style.css --- */
+
+/* Estilos Específicos para Genes */
+.gene-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.gene-card:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-color);
+}
+
+.gene-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.gene-name {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin: 0;
+}
+
+.gene-badges {
+    display: flex;
+    gap: 5px;
+}
+
+.gene-badge {
+    width: 24px;
+    height: 24px;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: var(--bg-primary);
+    border: 1px solid var(--border-color);
+}
+
+.gene-info {
+    font-size: 0.9em;
+    color: var(--text-primary);
+}
+
+.monstie-list-section {
+    margin-top: 5px;
+}
+
+.monstie-list-title {
+    font-size: 0.85em;
+    font-weight: bold;
+    color: var(--text-secondary);
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.monstie-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.monstie-tag {
+    background-color: var(--card-bg-secondary);
+    color: var(--text-primary);
+    padding: 3px 8px;
+    border-radius: 4px;
+    font-size: 0.85em;
+    border: 1px solid var(--border-color);
+}
+
+/* Indicador de gene ativo/passivo */
+.skill-type {
+    font-size: 0.75em;
+    padding: 2px 6px;
+    border-radius: 4px;
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    align-self: flex-start;
+}
+
+/* --- ADICIONAR NO FINAL DO style.css --- */
+
+/* Wrapper dos controles */
+.controls-wrapper {
+    background-color: var(--card-bg);
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--border-color);
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.search-row {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Estilo do Interruptor (Switch) */
+.mode-switch-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: bold;
+    color: var(--text-primary);
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+}
+
+/* Quando marcado (Modo Genes) */
+input:checked + .slider {
+    background-color: var(--accent-color);
+}
+
+input:checked + .slider:before {
+    transform: translateX(26px);
+}
+
+/* Arredondado */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+.mode-status {
+    min-width: 80px; /* Para não pular texto */
+    color: var(--accent-color);
+}
+
+/* Classe utilitária para esconder elementos */
+.hidden {
+    display: none !important;
+}
+
+/* Ajustes dos Cards de Gene (Reutilizando do passo anterior) */
+.gene-card {
+    background-color: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s, border-color 0.2s;
+}
+.gene-card:hover { transform: translateY(-3px); border-color: var(--accent-color); }
+.gene-header { display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid var(--border-color); padding-bottom: 10px; margin-bottom: 5px; }
+.gene-name { font-size: 1.2em; font-weight: bold; color: var(--accent-color); margin: 0; }
+.gene-badges { display: flex; gap: 5px; }
+.gene-badge { width: 24px; height: 24px; }
+.monstie-tag { background-color: var(--bg-primary); border: 1px solid var(--border-color); padding: 2px 6px; border-radius: 4px; font-size: 0.85em; margin-right: 4px; display: inline-block; margin-bottom: 4px; }
+.monstie-list-title { font-size: 0.8em; font-weight: bold; color: var(--text-secondary); margin-bottom: 4px; text-transform: uppercase; }
+
+/* --- CSS PARA ÍCONES DE GENES (SPRITE SHEET) --- */
+
+.gene-icon-stack {
+    position: relative;
+    width: 64px;  /* Tamanho total do ícone do gene */
+    height: 64px;
+    flex-shrink: 0;
+}
+
+.gene-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    pointer-events: none;
+}
+
+/* style.css atualizado para Grade 3x3 */
+
+.layer-type {
+    background-image: url('../assets/gene_icons/type.png');
+    background-repeat: no-repeat;
+    
+    /* Tamanho de UM ícone */
+    width: 32px;  
+    height: 32px;
+
+    /* Centralizar */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+    /* Tamanho TOTAL da imagem (3 colunas = 3 * 32px = 96px) */
+    /* Se a imagem for maior, ajuste para a largura total real dela */
+    background-size: 96px auto; 
+    
+    opacity: 0.9;
+}
+
+/* --- POSIÇÕES (X Y) --- */
+
+/* LINHA 1: Tipos de Ataque Principais */
+.type-power {
+    background-position: 0 0;       /* Esquerda Topo */
+}
+.type-speed {
+    background-position: -32px 0;   /* Centro Topo */
+}
+.type-technical {
+    background-position: -64px 0;   /* Direita Topo */
+}
+
+/* LINHA 3: Passivo / Sem Tipo (Normalmente usado para Genes Passivos) */
+.type-none, .type-passive {
+    background-position: 0 -64px;   /* Esquerda Baixo (Baseado no CSS do site) */
+}

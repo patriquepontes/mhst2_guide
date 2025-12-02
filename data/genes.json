@@ -1,0 +1,7758 @@
+[
+  {
+    "id": "1",
+    "geneName": "Whip Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Pukei-Pukei"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "3",
+    "geneName": "Whip Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Uragaan"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "4",
+    "geneName": "Whip Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Hellblade Glavenus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "6",
+    "geneName": "Full Swing Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Glavenus",
+        "Hellblade Glavenus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "7",
+    "geneName": "Full Swing Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nergigante"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "8",
+    "geneName": "Full Swing Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bloodbath Diablos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "9",
+    "geneName": "Piercing Claws Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "11",
+    "geneName": "Piercing Claws Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Soulseer Mizutsune"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "12",
+    "geneName": "Piercing Claws Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Pink Rathian"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "13",
+    "geneName": "Tackle Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Yian Kut-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "14",
+    "geneName": "Tackle Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gammoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "15",
+    "geneName": "Tackle Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Brachydios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "16",
+    "geneName": "Tackle Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bazelgeuse"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "17",
+    "geneName": "Smash Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Tobi-Kadachi"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "18",
+    "geneName": "Smash Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Barioth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "19",
+    "geneName": "Smash Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Astalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "20",
+    "geneName": "Smash Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rathalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "21",
+    "geneName": "Chomp Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Red Khezu",
+        "Palamute (Thunder)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "22",
+    "geneName": "Chomp Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Lagiacrus",
+        "Fulgur Anjanath"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "23",
+    "geneName": "Chomp Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Anjanath",
+        "Palamute (Fire)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "25",
+    "geneName": "Rock Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kulu-Ya-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "26",
+    "geneName": "Rock Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Qurupeco"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "27",
+    "geneName": "Rock Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Crimson Qurupeco"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "29",
+    "geneName": "Dash Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Apceros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "30",
+    "geneName": "Dash Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Glavenus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "31",
+    "geneName": "Dash Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Silverwind Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "32",
+    "geneName": "Dash Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Grimclaw Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "33",
+    "geneName": "Tumbling Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Paolumu"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "34",
+    "geneName": "Tumbling Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Purple Gypceros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "35",
+    "geneName": "Tumbling Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Monoblos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "37",
+    "geneName": "Breaking Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Great Jaggi",
+        "Arzuros",
+        "Barroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "38",
+    "geneName": "Breaking Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Jade Barroth",
+        "White Monoblos",
+        "Brute Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "39",
+    "geneName": "Breaking Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Oroshi Kirin"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "40",
+    "geneName": "Breaking Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bloodbath Diablos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "41",
+    "geneName": "Head Start Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Velocidrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "42",
+    "geneName": "P Head Start Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rajang"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "43",
+    "geneName": "S Head Start Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Monoblos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "44",
+    "geneName": "T Head Start Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kushala Daora"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "45",
+    "geneName": "Onslaught Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Velocidrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "46",
+    "geneName": "Onslaught Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Apceros",
+        "Paolumu"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "47",
+    "geneName": "Onslaught Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ivory Lagiacrus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "48",
+    "geneName": "Onslaught Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Hellblade Glavenus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "49",
+    "geneName": "All-Out Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bulldrome",
+        "Blue Yian Kut-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "50",
+    "geneName": "All-Out Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Arzuros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "51",
+    "geneName": "All-Out Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Royal Ludroth",
+        "Kecha Wacha"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "52",
+    "geneName": "All-Out Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Diablos",
+        "Black Diablos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "53",
+    "geneName": "Last Stand Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Paolumu",
+        "Nerscylla"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "54",
+    "geneName": "Last Stand Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Diablos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "55",
+    "geneName": "Last Stand Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Legiana"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "56",
+    "geneName": "Last Stand Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Astalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "57",
+    "geneName": "Rampage Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bulldrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "58",
+    "geneName": "Rampage Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ash Kecha Wacha"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "59",
+    "geneName": "Rampage Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "60",
+    "geneName": "Rampage Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Grimclaw Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "61",
+    "geneName": "Fire Breath Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rathian",
+        "Azure Rathalos",
+        "Palamute (Fire)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "62",
+    "geneName": "Fire Breath Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rathian",
+        "Pink Rathian",
+        "Dreadqueen Rathian"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "63",
+    "geneName": "Fire Breath Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Azure Rathalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "65",
+    "geneName": "Fireball Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Yian Kut-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "66",
+    "geneName": "Fireball Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Blue Yian Kut-Ku",
+        "Yian Garuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "67",
+    "geneName": "Fireball Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rathalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "68",
+    "geneName": "Fireball Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Teostra"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "69",
+    "geneName": "Water Breath Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Royal Ludroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "70",
+    "geneName": "Water Breath Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Mizutsune"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "71",
+    "geneName": "Water Breath Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Mizutsune"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "73",
+    "geneName": "Thunder Breath Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Lagiacrus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "74",
+    "geneName": "Thunder Breath Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Khezu",
+        "Red Khezu"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "75",
+    "geneName": "Thunder Breath Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ivory Lagiacrus",
+        "Astalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "76",
+    "geneName": "Thunder Breath Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Boltreaver Astalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "77",
+    "geneName": "Thunderstrike Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Tobi-Kadachi"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "78",
+    "geneName": "Thunderstrike Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Boltreaver Astalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "79",
+    "geneName": "Thunderstrike Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Fulgur Anjanath"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "80",
+    "geneName": "Thunderstrike Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rajang"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "83",
+    "geneName": "Ice Breath Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Elderfrost Gammoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "84",
+    "geneName": "Ice Breath Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Velkhana"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "85",
+    "geneName": "Freezing Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Zamtrios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "86",
+    "geneName": "Freezing Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Zamtrios",
+        "Palamute (Ice)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "87",
+    "geneName": "Freezing Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Velkhana"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "91",
+    "geneName": "Dragon Breath Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Deviljho",
+        "Palamute (Dragon)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "93",
+    "geneName": "Sleep Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Great Baggi"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "94",
+    "geneName": "Sleep Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nerscylla"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "95",
+    "geneName": "Sleep Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ruby Basarios",
+        "Gravios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "97",
+    "geneName": "Poison Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Yian Garuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "98",
+    "geneName": "Poison Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rathian"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "99",
+    "geneName": "Poison Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Purple Ludroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "101",
+    "geneName": "Poison Breath Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Pukei-Pukei"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "102",
+    "geneName": "Poison Breath Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Pukei-Pukei"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "105",
+    "geneName": "Venom Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gypceros",
+        "Iodrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "106",
+    "geneName": "Venom Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Purple Ludroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "109",
+    "geneName": "Paralyze Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gendrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "110",
+    "geneName": "Paralyze Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Cephadrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "111",
+    "geneName": "Paralyze Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kirin"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "112",
+    "geneName": "Paralyze Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kirin"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "114",
+    "geneName": "Arachno Venom Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Iodrome",
+        "Gendrome",
+        "Shrouded Nerscylla"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "115",
+    "geneName": "Arachno Venom Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Shrouded Nerscylla"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "116",
+    "geneName": "Arachno Venom Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Shrouded Nerscylla"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "117",
+    "geneName": "Savage Roar Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Khezu",
+        "Black Diablos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "120",
+    "geneName": "Savage Roar Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Brute Tigrex",
+        "Bloodbath Diablos",
+        "Molten Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "121",
+    "geneName": "Foul Gas Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Congalala"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "122",
+    "geneName": "Foul Gas Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Congalala",
+        "Emerald Congalala"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "123",
+    "geneName": "Foul Gas Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Emerald Congalala"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "131",
+    "geneName": "Dust Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Molten Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "132",
+    "geneName": "Dust Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Teostra"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "133",
+    "geneName": "Noxious Poison Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Purple Gypceros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "134",
+    "geneName": "Noxious Poison Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Purple Ludroth",
+        "Palamute (Water)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "135",
+    "geneName": "Noxious Poison Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Dreadqueen Rathian"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "136",
+    "geneName": "Noxious Poison Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Dreadqueen Rathian"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "138",
+    "geneName": "Slime Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Brachydios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "139",
+    "geneName": "Slime Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Brachydios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "141",
+    "geneName": "Savage Strike Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Tigrex",
+        "Brute Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "142",
+    "geneName": "Savage Strike Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Grimclaw Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "143",
+    "geneName": "Savage Strike Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kirin"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "147",
+    "geneName": "Multistrike Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Velkhana"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "148",
+    "geneName": "Multistrike Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Thunderlord Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "150",
+    "geneName": "Bugshot Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "151",
+    "geneName": "Bugshot Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Stygian Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "152",
+    "geneName": "Bugshot Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Thunderlord Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "153",
+    "geneName": "Spikeshot Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nargacuga",
+        "Green Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "154",
+    "geneName": "Spikeshot Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Green Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "155",
+    "geneName": "Spikeshot Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Seregios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "156",
+    "geneName": "Spikeshot Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Silverwind Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "157",
+    "geneName": "Toss Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kulu-Ya-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "158",
+    "geneName": "Toss Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Lagombi"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "159",
+    "geneName": "Toss Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gammoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "160",
+    "geneName": "Toss Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Elderfrost Gammoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "161",
+    "geneName": "Mucus Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kecha Wacha"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "163",
+    "geneName": "Mucus Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ash Kecha Wacha"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "164",
+    "geneName": "Mucus Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Fulgur Anjanath"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "166",
+    "geneName": "Fireclad Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Glavenus",
+        "Palamute (Fire)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "168",
+    "geneName": "Fireclad Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Pink Rathian"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "170",
+    "geneName": "Thunderclad Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Tobi-Kadachi",
+        "Zinogre",
+        "Palamute (Thunder)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "171",
+    "geneName": "Thunderclad Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Thunderlord Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "172",
+    "geneName": "Thunderclad Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Boltreaver Astalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "174",
+    "geneName": "Iceclad Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Zamtrios",
+        "Jade Barroth",
+        "Palamute (Ice)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "175",
+    "geneName": "Iceclad Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gammoth",
+        "Elderfrost Gammoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "179",
+    "geneName": "Dragonclad Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Stygian Zinogre",
+        "Palamute (Dragon)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "181",
+    "geneName": "Soothing Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Aptonoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "186",
+    "geneName": "Healing Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Arzuros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "187",
+    "geneName": "Healing Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Congalala"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "188",
+    "geneName": "Healing Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Aptonoth",
+        "Apceros",
+        "Popo"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "189",
+    "geneName": "Recovery Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Aptonoth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "190",
+    "geneName": "Recovery Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Popo"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "199",
+    "geneName": "Toughen Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Basarios",
+        "Ruby Basarios",
+        "Black Gravios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "201",
+    "geneName": "Guard Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kulu-Ya-Ku"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "202",
+    "geneName": "Guard Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Emerald Congalala"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "207",
+    "geneName": "Lock-On Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Tigrex",
+        "White Monoblos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "209",
+    "geneName": "Critical Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nargacuga",
+        "Palamute (Non-Elem)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "210",
+    "geneName": "Critical Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Green Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "215",
+    "geneName": "Evasion Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Sand Barioth",
+        "Rathalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "216",
+    "geneName": "Evasion Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Silverwind Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "217",
+    "geneName": "Bellow Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Great Jaggi"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "218",
+    "geneName": "Bellow Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Monoblos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "219",
+    "geneName": "Bellow Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Seregios",
+        "Palamute (Water)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "220",
+    "geneName": "Bellow Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bazelgeuse"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "222",
+    "geneName": "Charge Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bulldrome",
+        "Diablos",
+        "Black Diablos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "224",
+    "geneName": "Charge Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Rajang"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "225",
+    "geneName": "Overpower Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Velocidrome"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "227",
+    "geneName": "Overpower Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ivory Lagiacrus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "228",
+    "geneName": "Overpower Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Kushala Daora"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "229",
+    "geneName": "Blinding Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gypceros",
+        "Purple Gypceros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "230",
+    "geneName": "Blinding Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Cephadrome",
+        "Palamute (Water)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "233",
+    "geneName": "Snow Shroud Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Popo",
+        "Jade Barroth",
+        "Barioth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "238",
+    "geneName": "Heat Beam Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gravios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "239",
+    "geneName": "Heat Beam Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Black Gravios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "240",
+    "geneName": "Heat Beam Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Black Gravios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "246",
+    "geneName": "Cyclone Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Barioth",
+        "Palamute (Ice)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "247",
+    "geneName": "Cyclone Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Sand Barioth",
+        "Kushala Daora"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "250",
+    "geneName": "One-Shot Attack Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "White Monoblos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "253",
+    "geneName": "P Salt in the Wound Gene",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gypceros"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "254",
+    "geneName": "S Salt in the Wound Gene",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Cephadrome",
+        "Palamute (Non-Elem)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "255",
+    "geneName": "T Salt in the Wound Gene",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Yian Garuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "256",
+    "geneName": "P Trap Gene",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Uragaan"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "257",
+    "geneName": "S Trap Gene",
+    "geneType": "Speed Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Soulseer Mizutsune"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "258",
+    "geneName": "T Trap Gene",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Red Khezu"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "259",
+    "geneName": "Explosion Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Uragaan"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "260",
+    "geneName": "Explosion Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Bazelgeuse"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "261",
+    "geneName": "Explosion Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Molten Tigrex"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "262",
+    "geneName": "Explosion Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Teostra"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "264",
+    "geneName": "Bloodsuck Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Khezu",
+        "Palamute (Thunder)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "265",
+    "geneName": "Bloodsuck Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Deviljho",
+        "Palamute (Dragon)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "267",
+    "geneName": "Fume Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Basarios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "268",
+    "geneName": "Fume Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Basarios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "269",
+    "geneName": "Fume Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ruby Basarios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "271",
+    "geneName": "Mud Splash Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Barroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "272",
+    "geneName": "Mud Splash Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Barroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "275",
+    "geneName": "Water Soak Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Royal Ludroth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "281",
+    "geneName": "Pump Up Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Deviljho"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "284",
+    "geneName": "Iron Skin Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Ash Kecha Wacha"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "291",
+    "geneName": "Chill Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Legiana"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "293",
+    "geneName": "Chill Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Legiana"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "297",
+    "geneName": "Sand Barioth Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Sand Barioth"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "300",
+    "geneName": "Lagombi Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Lagombi"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "305",
+    "geneName": "Lagiacrus Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Lagiacrus"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "309",
+    "geneName": "Foxflame Gene",
+    "geneType": "No Type",
+    "geneElement": "Water",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Soulseer Mizutsune"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "313",
+    "geneName": "Kirin Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Oroshi Kirin"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "314",
+    "geneName": "Kirin Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Oroshi Kirin"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "316",
+    "geneName": "Nargacuga Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nargacuga"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "320",
+    "geneName": "Gravios Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Gravios"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "324",
+    "geneName": "Nerscylla Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Great Baggi",
+        "Nerscylla"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "328",
+    "geneName": "Rathalos Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Azure Rathalos"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "332",
+    "geneName": "Thousand Blades Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Seregios",
+        "Palamute (Non-Elem)"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "337",
+    "geneName": "Bubble Flurry Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Mizutsune"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "341",
+    "geneName": "Nergigante Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nergigante"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "342",
+    "geneName": "Nergigante Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Nergigante"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "343",
+    "geneName": "Anjanath Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Anjanath"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "344",
+    "geneName": "Anjanath Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Anjanath"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "349",
+    "geneName": "Zinogre Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "350",
+    "geneName": "Zinogre Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Stygian Zinogre"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "352",
+    "geneName": "Empowering Song Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Qurupeco"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "356",
+    "geneName": "Fortifying Song Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Qurupeco"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "360",
+    "geneName": "Weakening Song Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Crimson Qurupeco"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "364",
+    "geneName": "Enfeebling Song Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": true,
+    "monsties": {
+      "fixed": [
+        "Crimson Qurupeco"
+      ],
+      "random": []
+    }
+  },
+  {
+    "id": "401",
+    "geneName": "Health Up Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Yian Kut-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Royal Ludroth",
+        "Arzuros",
+        "Qurupeco",
+        "Blue Yian Kut-Ku",
+        "Paolumu",
+        "Basarios",
+        "Nargacuga",
+        "Rathian",
+        "Popo",
+        "Great Baggi",
+        "Kecha Wacha",
+        "Gypceros",
+        "Zamtrios",
+        "Barroth",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Lagombi",
+        "Jade Barroth",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "402",
+    "geneName": "Health Up Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Yian Kut-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Royal Ludroth",
+        "Arzuros",
+        "Qurupeco",
+        "Blue Yian Kut-Ku",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Basarios",
+        "Nargacuga",
+        "Rathian",
+        "Popo",
+        "Great Baggi",
+        "Kecha Wacha",
+        "Gypceros",
+        "Zamtrios",
+        "Barroth",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Lagombi",
+        "Jade Barroth",
+        "Anjanath",
+        "Gammoth",
+        "Zinogre",
+        "Barioth",
+        "Legiana",
+        "Cephadrome",
+        "Ash Kecha Wacha",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Crimson Qurupeco",
+        "Mizutsune",
+        "Lagiacrus",
+        "Uragaan",
+        "Brute Tigrex",
+        "Purple Ludroth",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Ivory Lagiacrus",
+        "Brachydios",
+        "Astalos",
+        "Glavenus",
+        "Bazelgeuse",
+        "Sand Barioth",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Seregios",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Fulgur Anjanath",
+        "Silverwind Nargacuga",
+        "Thunderlord Zinogre",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Dreadqueen Rathian",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Hellblade Glavenus",
+        "Elderfrost Gammoth",
+        "Soulseer Mizutsune",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "403",
+    "geneName": "Health Up Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Gammoth",
+        "Zinogre",
+        "Barioth",
+        "Legiana",
+        "Cephadrome",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Crimson Qurupeco",
+        "Mizutsune",
+        "Lagiacrus",
+        "Uragaan",
+        "Brute Tigrex",
+        "Purple Ludroth",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Ivory Lagiacrus",
+        "Brachydios",
+        "Astalos",
+        "Glavenus",
+        "Bazelgeuse",
+        "Sand Barioth",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Seregios",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Fulgur Anjanath",
+        "Silverwind Nargacuga",
+        "Thunderlord Zinogre",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Dreadqueen Rathian",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Hellblade Glavenus",
+        "Elderfrost Gammoth",
+        "Soulseer Mizutsune",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "404",
+    "geneName": "Health Up Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Yian Kut-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Royal Ludroth",
+        "Arzuros",
+        "Qurupeco",
+        "Blue Yian Kut-Ku",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Basarios",
+        "Nargacuga",
+        "Rathian",
+        "Popo",
+        "Great Baggi",
+        "Kecha Wacha",
+        "Gypceros",
+        "Zamtrios",
+        "Barroth",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Lagombi",
+        "Jade Barroth",
+        "Anjanath",
+        "Gammoth",
+        "Zinogre",
+        "Barioth",
+        "Legiana",
+        "Cephadrome",
+        "Ash Kecha Wacha",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Crimson Qurupeco",
+        "Mizutsune",
+        "Lagiacrus",
+        "Uragaan",
+        "Brute Tigrex",
+        "Purple Ludroth",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Ivory Lagiacrus",
+        "Brachydios",
+        "Astalos",
+        "Glavenus",
+        "Bazelgeuse",
+        "Sand Barioth",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Seregios",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Fulgur Anjanath",
+        "Silverwind Nargacuga",
+        "Thunderlord Zinogre",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Dreadqueen Rathian",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Hellblade Glavenus",
+        "Elderfrost Gammoth",
+        "Soulseer Mizutsune",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "405",
+    "geneName": "Critical Eye Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Yian Kut-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Royal Ludroth",
+        "Arzuros",
+        "Qurupeco",
+        "Blue Yian Kut-Ku",
+        "Paolumu",
+        "Basarios",
+        "Nargacuga",
+        "Rathian",
+        "Popo",
+        "Great Baggi",
+        "Kecha Wacha",
+        "Gypceros",
+        "Zamtrios",
+        "Barroth",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Lagombi",
+        "Jade Barroth",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "406",
+    "geneName": "Critical Eye Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Yian Kut-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Royal Ludroth",
+        "Arzuros",
+        "Qurupeco",
+        "Blue Yian Kut-Ku",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Basarios",
+        "Nargacuga",
+        "Rathian",
+        "Popo",
+        "Great Baggi",
+        "Kecha Wacha",
+        "Gypceros",
+        "Zamtrios",
+        "Barroth",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Lagombi",
+        "Jade Barroth",
+        "Anjanath",
+        "Gammoth",
+        "Zinogre",
+        "Barioth",
+        "Legiana",
+        "Cephadrome",
+        "Ash Kecha Wacha",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Crimson Qurupeco",
+        "Mizutsune",
+        "Lagiacrus",
+        "Uragaan",
+        "Brute Tigrex",
+        "Purple Ludroth",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Ivory Lagiacrus",
+        "Brachydios",
+        "Astalos",
+        "Glavenus",
+        "Bazelgeuse",
+        "Sand Barioth",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Seregios",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Fulgur Anjanath",
+        "Silverwind Nargacuga",
+        "Thunderlord Zinogre",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Dreadqueen Rathian",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Hellblade Glavenus",
+        "Elderfrost Gammoth",
+        "Soulseer Mizutsune",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "407",
+    "geneName": "Critical Eye Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Gammoth",
+        "Zinogre",
+        "Barioth",
+        "Legiana",
+        "Cephadrome",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Crimson Qurupeco",
+        "Mizutsune",
+        "Lagiacrus",
+        "Uragaan",
+        "Brute Tigrex",
+        "Purple Ludroth",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Ivory Lagiacrus",
+        "Brachydios",
+        "Astalos",
+        "Glavenus",
+        "Bazelgeuse",
+        "Sand Barioth",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Seregios",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Fulgur Anjanath",
+        "Silverwind Nargacuga",
+        "Thunderlord Zinogre",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Dreadqueen Rathian",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Hellblade Glavenus",
+        "Elderfrost Gammoth",
+        "Soulseer Mizutsune",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "408",
+    "geneName": "Critical Eye Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Yian Kut-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Royal Ludroth",
+        "Arzuros",
+        "Qurupeco",
+        "Blue Yian Kut-Ku",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Basarios",
+        "Nargacuga",
+        "Rathian",
+        "Popo",
+        "Great Baggi",
+        "Kecha Wacha",
+        "Gypceros",
+        "Zamtrios",
+        "Barroth",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Lagombi",
+        "Jade Barroth",
+        "Anjanath",
+        "Gammoth",
+        "Zinogre",
+        "Barioth",
+        "Legiana",
+        "Cephadrome",
+        "Ash Kecha Wacha",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Crimson Qurupeco",
+        "Mizutsune",
+        "Lagiacrus",
+        "Uragaan",
+        "Brute Tigrex",
+        "Purple Ludroth",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Ivory Lagiacrus",
+        "Brachydios",
+        "Astalos",
+        "Glavenus",
+        "Bazelgeuse",
+        "Sand Barioth",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Seregios",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Fulgur Anjanath",
+        "Silverwind Nargacuga",
+        "Thunderlord Zinogre",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Dreadqueen Rathian",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Hellblade Glavenus",
+        "Elderfrost Gammoth",
+        "Soulseer Mizutsune",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "409",
+    "geneName": "Evasion Up Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "410",
+    "geneName": "Evasion Up Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "411",
+    "geneName": "Evasion Up Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "412",
+    "geneName": "Evasion Up Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "413",
+    "geneName": "Tenacity Gene",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Ice)"
+      ]
+    }
+  },
+  {
+    "id": "414",
+    "geneName": "Quick Gene",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Water)"
+      ]
+    }
+  },
+  {
+    "id": "415",
+    "geneName": "Protection Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "416",
+    "geneName": "Protection Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "417",
+    "geneName": "Protection Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "418",
+    "geneName": "Protection Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "419",
+    "geneName": "Den Protector Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "420",
+    "geneName": "Den Protector Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "421",
+    "geneName": "Den Protector Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "422",
+    "geneName": "Den Protector Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "423",
+    "geneName": "Might Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "424",
+    "geneName": "Might Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "425",
+    "geneName": "Might Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Palamute (Non-Elem)"
+      ],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "426",
+    "geneName": "Might Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "427",
+    "geneName": "Fire+ Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha"
+      ]
+    }
+  },
+  {
+    "id": "428",
+    "geneName": "Fire+ Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "429",
+    "geneName": "Fire+ Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Palamute (Fire)"
+      ],
+      "random": [
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "430",
+    "geneName": "Fire+ Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "431",
+    "geneName": "Water+ Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth"
+      ]
+    }
+  },
+  {
+    "id": "432",
+    "geneName": "Water+ Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "433",
+    "geneName": "Water+ Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Palamute (Water)"
+      ],
+      "random": [
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "434",
+    "geneName": "Water+ Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "435",
+    "geneName": "Thunder+ Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu"
+      ]
+    }
+  },
+  {
+    "id": "436",
+    "geneName": "Thunder+ Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "437",
+    "geneName": "Thunder+ Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Palamute (Thunder)"
+      ],
+      "random": [
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "438",
+    "geneName": "Thunder+ Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "439",
+    "geneName": "Ice+ Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth"
+      ]
+    }
+  },
+  {
+    "id": "440",
+    "geneName": "Ice+ Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "441",
+    "geneName": "Ice+ Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Palamute (Ice)"
+      ],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "442",
+    "geneName": "Ice+ Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "443",
+    "geneName": "Dragon+ Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi"
+      ]
+    }
+  },
+  {
+    "id": "444",
+    "geneName": "Dragon+ Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "445",
+    "geneName": "Dragon+ Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Palamute (Dragon)"
+      ],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "446",
+    "geneName": "Dragon+ Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "447",
+    "geneName": "Iron Wall Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "448",
+    "geneName": "Iron Wall Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "449",
+    "geneName": "Iron Wall Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "450",
+    "geneName": "Iron Wall Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "451",
+    "geneName": "Fire Res Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha"
+      ]
+    }
+  },
+  {
+    "id": "452",
+    "geneName": "Fire Res Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "453",
+    "geneName": "Fire Res Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "454",
+    "geneName": "Fire Res Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "455",
+    "geneName": "Water Res Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth"
+      ]
+    }
+  },
+  {
+    "id": "456",
+    "geneName": "Water Res Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "457",
+    "geneName": "Water Res Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "458",
+    "geneName": "Water Res Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "459",
+    "geneName": "Thunder Res Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu"
+      ]
+    }
+  },
+  {
+    "id": "460",
+    "geneName": "Thunder Res Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "461",
+    "geneName": "Thunder Res Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "462",
+    "geneName": "Thunder Res Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "463",
+    "geneName": "Ice Res Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth"
+      ]
+    }
+  },
+  {
+    "id": "464",
+    "geneName": "Ice Res Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "465",
+    "geneName": "Ice Res Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "466",
+    "geneName": "Ice Res Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "467",
+    "geneName": "Dragon Res Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi"
+      ]
+    }
+  },
+  {
+    "id": "468",
+    "geneName": "Dragon Res Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "469",
+    "geneName": "Dragon Res Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "470",
+    "geneName": "Dragon Res Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "471",
+    "geneName": "All-Res Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "472",
+    "geneName": "All-Res Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "473",
+    "geneName": "All-Res Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "474",
+    "geneName": "All-Res Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "475",
+    "geneName": "Inflict Ailment Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "476",
+    "geneName": "Inflict Ailment Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "477",
+    "geneName": "Inflict Ailment Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Iodrome",
+        "Gendrome",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Non-Elem)"
+      ]
+    }
+  },
+  {
+    "id": "478",
+    "geneName": "Inflict Ailment Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Non-Elem)"
+      ]
+    }
+  },
+  {
+    "id": "479",
+    "geneName": "Salt in Wound+ Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "480",
+    "geneName": "Salt in Wound+ Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "481",
+    "geneName": "Salt in Wound+ Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Iodrome",
+        "Gendrome",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Thunder)"
+      ]
+    }
+  },
+  {
+    "id": "482",
+    "geneName": "Salt in Wound+ Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Thunder)"
+      ]
+    }
+  },
+  {
+    "id": "483",
+    "geneName": "Warming Gene",
+    "geneType": "No Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Barioth",
+        "Kushala Daora",
+        "Velkhana"
+      ],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "484",
+    "geneName": "Cooling Gene",
+    "geneType": "No Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [
+        "Basarios",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Sand Barioth",
+        "Teostra"
+      ],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "485",
+    "geneName": "Negate 1-Hit KO Gene",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "486",
+    "geneName": "Antivenom Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Popo",
+        "Congalala",
+        "Zamtrios",
+        "Nerscylla",
+        "Lagombi",
+        "Jade Barroth",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "487",
+    "geneName": "Antivenom Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Popo",
+        "Congalala",
+        "Zamtrios",
+        "Nerscylla",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "488",
+    "geneName": "Antivenom Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Iodrome",
+        "Gendrome",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "489",
+    "geneName": "Antivenom Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Popo",
+        "Congalala",
+        "Zamtrios",
+        "Nerscylla",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "490",
+    "geneName": "Burnproof Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Pukei-Pukei",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "491",
+    "geneName": "Burnproof Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Pukei-Pukei",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Anjanath",
+        "Iodrome",
+        "Gendrome",
+        "Ash Kecha Wacha",
+        "Purple Gypceros",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "492",
+    "geneName": "Burnproof Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Iodrome",
+        "Gendrome",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "493",
+    "geneName": "Burnproof Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Pukei-Pukei",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Anjanath",
+        "Iodrome",
+        "Gendrome",
+        "Ash Kecha Wacha",
+        "Purple Gypceros",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "494",
+    "geneName": "Antishock Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Gypceros",
+        "Nerscylla",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "495",
+    "geneName": "Antishock Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Gypceros",
+        "Nerscylla",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "496",
+    "geneName": "Antishock Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Zinogre",
+        "Iodrome",
+        "Gendrome",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Palamute (Thunder)"
+      ]
+    }
+  },
+  {
+    "id": "497",
+    "geneName": "Antishock Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Gypceros",
+        "Nerscylla",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Palamute (Thunder)"
+      ]
+    }
+  },
+  {
+    "id": "498",
+    "geneName": "Antisleep Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Popo",
+        "Congalala",
+        "Zamtrios",
+        "Nerscylla",
+        "Lagombi",
+        "Jade Barroth",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "499",
+    "geneName": "Antisleep Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Popo",
+        "Congalala",
+        "Zamtrios",
+        "Nerscylla",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "500",
+    "geneName": "Antisleep Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Iodrome",
+        "Gendrome",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "501",
+    "geneName": "Antisleep Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Popo",
+        "Congalala",
+        "Zamtrios",
+        "Nerscylla",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "502",
+    "geneName": "Antistench Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Royal Ludroth",
+        "Yian Garuga",
+        "Congalala",
+        "Kecha Wacha",
+        "Nerscylla",
+        "Barroth",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "503",
+    "geneName": "Antistench Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Royal Ludroth",
+        "Yian Garuga",
+        "Congalala",
+        "Kecha Wacha",
+        "Nerscylla",
+        "Barroth",
+        "Iodrome",
+        "Gendrome",
+        "Cephadrome",
+        "Purple Gypceros",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "504",
+    "geneName": "Antistench Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Iodrome",
+        "Gendrome",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "505",
+    "geneName": "Antistench Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Royal Ludroth",
+        "Yian Garuga",
+        "Congalala",
+        "Kecha Wacha",
+        "Nerscylla",
+        "Barroth",
+        "Iodrome",
+        "Gendrome",
+        "Cephadrome",
+        "Purple Gypceros",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "506",
+    "geneName": "Antiseal Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Royal Ludroth",
+        "Yian Garuga",
+        "Congalala",
+        "Kecha Wacha",
+        "Nerscylla",
+        "Barroth",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "507",
+    "geneName": "Antiseal Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Royal Ludroth",
+        "Yian Garuga",
+        "Congalala",
+        "Kecha Wacha",
+        "Nerscylla",
+        "Barroth",
+        "Iodrome",
+        "Gendrome",
+        "Cephadrome",
+        "Purple Gypceros",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "508",
+    "geneName": "Antiseal Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Iodrome",
+        "Gendrome",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Soulseer Mizutsune",
+        "Oroshi Kirin",
+        "Palamute (Ice)"
+      ]
+    }
+  },
+  {
+    "id": "509",
+    "geneName": "Antiseal Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Royal Ludroth",
+        "Yian Garuga",
+        "Congalala",
+        "Kecha Wacha",
+        "Nerscylla",
+        "Barroth",
+        "Iodrome",
+        "Gendrome",
+        "Cephadrome",
+        "Purple Gypceros",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Soulseer Mizutsune",
+        "Oroshi Kirin",
+        "Palamute (Ice)"
+      ]
+    }
+  },
+  {
+    "id": "510",
+    "geneName": "Blast Damper Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Pukei-Pukei",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "511",
+    "geneName": "Blast Damper Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Pukei-Pukei",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Anjanath",
+        "Iodrome",
+        "Gendrome",
+        "Ash Kecha Wacha",
+        "Purple Gypceros",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "512",
+    "geneName": "Blast Damper Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Iodrome",
+        "Gendrome",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "513",
+    "geneName": "Blast Damper Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Pukei-Pukei",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Yian Garuga",
+        "Congalala",
+        "Nerscylla",
+        "Anjanath",
+        "Iodrome",
+        "Gendrome",
+        "Ash Kecha Wacha",
+        "Purple Gypceros",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "514",
+    "geneName": "Antibleed Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Rathian",
+        "Congalala",
+        "Great Baggi",
+        "Nerscylla",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "515",
+    "geneName": "Antibleed Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Iodrome",
+        "Gendrome",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "516",
+    "geneName": "Antibleed Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "517",
+    "geneName": "Antibleed Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Rathian",
+        "Congalala",
+        "Great Baggi",
+        "Nerscylla",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "518",
+    "geneName": "Keen Sight Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Gypceros",
+        "Nerscylla",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Purple Gypceros"
+      ]
+    }
+  },
+  {
+    "id": "519",
+    "geneName": "Keen Sight Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Gypceros",
+        "Nerscylla",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "520",
+    "geneName": "Keen Sight Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Zinogre",
+        "Iodrome",
+        "Gendrome",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "521",
+    "geneName": "Keen Sight Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Pukei-Pukei",
+        "Yian Garuga",
+        "Congalala",
+        "Gypceros",
+        "Nerscylla",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Iodrome",
+        "Gendrome",
+        "Purple Gypceros",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Shrouded Nerscylla",
+        "Emerald Congalala",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "522",
+    "geneName": "Negate Ailment (S)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "523",
+    "geneName": "Negate Ailment (M)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "524",
+    "geneName": "Negate Ailment (L)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Dragon)"
+      ]
+    }
+  },
+  {
+    "id": "525",
+    "geneName": "Negate Ailment (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Dragon)"
+      ]
+    }
+  },
+  {
+    "id": "526",
+    "geneName": "Soul Kinship Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi"
+      ]
+    }
+  },
+  {
+    "id": "527",
+    "geneName": "Soul Kinship Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Nergigante",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "528",
+    "geneName": "Soul Kinship Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Non-Elem)",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "529",
+    "geneName": "Soul Kinship Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Nergigante",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Non-Elem)",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "530",
+    "geneName": "Harmony Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "531",
+    "geneName": "Harmony Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Nergigante",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "532",
+    "geneName": "Harmony Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Nergigante",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "533",
+    "geneName": "Harmony Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Nergigante",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "538",
+    "geneName": "Head-to-Head Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha"
+      ]
+    }
+  },
+  {
+    "id": "539",
+    "geneName": "Head-to-Head Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Nergigante",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Hellblade Glavenus",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "540",
+    "geneName": "Head-to-Head Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Nergigante",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Hellblade Glavenus",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "541",
+    "geneName": "Head-to-Head Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Nergigante",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Hellblade Glavenus",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "542",
+    "geneName": "Merciless Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "543",
+    "geneName": "Merciless Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "544",
+    "geneName": "Merciless Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "545",
+    "geneName": "Merciless Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "554",
+    "geneName": "Vicious Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga"
+      ]
+    }
+  },
+  {
+    "id": "555",
+    "geneName": "Vicious Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "556",
+    "geneName": "Vicious Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Tigrex",
+        "Monoblos",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Palamute (Dragon)"
+      ]
+    }
+  },
+  {
+    "id": "557",
+    "geneName": "Vicious Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Velocidrome",
+        "Kulu-Ya-Ku",
+        "Bulldrome",
+        "Apceros",
+        "Great Jaggi",
+        "Arzuros",
+        "Qurupeco",
+        "Tigrex",
+        "Monoblos",
+        "Paolumu",
+        "Nargacuga",
+        "Green Nargacuga",
+        "Diablos",
+        "Black Diablos",
+        "White Monoblos",
+        "Brute Tigrex",
+        "Sand Barioth",
+        "Seregios",
+        "Silverwind Nargacuga",
+        "Bloodbath Diablos",
+        "Grimclaw Tigrex",
+        "Palamute (Dragon)"
+      ]
+    }
+  },
+  {
+    "id": "558",
+    "geneName": "Slugger Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi"
+      ]
+    }
+  },
+  {
+    "id": "559",
+    "geneName": "Slugger Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "560",
+    "geneName": "Slugger Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex",
+        "Palamute (Fire)"
+      ]
+    }
+  },
+  {
+    "id": "561",
+    "geneName": "Slugger Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex",
+        "Palamute (Fire)"
+      ]
+    }
+  },
+  {
+    "id": "562",
+    "geneName": "Kinship Skill+ Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu"
+      ]
+    }
+  },
+  {
+    "id": "563",
+    "geneName": "Kinship Skill+ Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "564",
+    "geneName": "Kinship Skill+ Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "565",
+    "geneName": "Kinship Skill+ Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "566",
+    "geneName": "Synchronize Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth"
+      ]
+    }
+  },
+  {
+    "id": "567",
+    "geneName": "Synchronize Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "568",
+    "geneName": "Synchronize Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "569",
+    "geneName": "Synchronize Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "570",
+    "geneName": "Bombardier Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha"
+      ]
+    }
+  },
+  {
+    "id": "571",
+    "geneName": "Bombardier Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "572",
+    "geneName": "Bombardier Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "573",
+    "geneName": "Bombardier Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Hellblade Glavenus"
+      ]
+    }
+  },
+  {
+    "id": "578",
+    "geneName": "Self-Heal Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "579",
+    "geneName": "Self-Heal Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Soulseer Mizutsune",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "580",
+    "geneName": "Self-Heal Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Fire)"
+      ]
+    }
+  },
+  {
+    "id": "581",
+    "geneName": "Self-Heal Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Non-Elem",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Nergigante",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Oroshi Kirin",
+        "Palamute (Fire)"
+      ]
+    }
+  },
+  {
+    "id": "586",
+    "geneName": "Dancer Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu"
+      ]
+    }
+  },
+  {
+    "id": "587",
+    "geneName": "Dancer Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "588",
+    "geneName": "Dancer Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Palamute (Water)"
+      ]
+    }
+  },
+  {
+    "id": "589",
+    "geneName": "Dancer Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos",
+        "Palamute (Water)"
+      ]
+    }
+  },
+  {
+    "id": "590",
+    "geneName": "Heroics Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha"
+      ]
+    }
+  },
+  {
+    "id": "591",
+    "geneName": "Heroics Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Nergigante",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Hellblade Glavenus",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "592",
+    "geneName": "Heroics Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Nergigante",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Hellblade Glavenus",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "593",
+    "geneName": "Heroics Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Fire",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Yian Kut-Ku",
+        "Blue Yian Kut-Ku",
+        "Basarios",
+        "Anjanath",
+        "Ash Kecha Wacha",
+        "Uragaan",
+        "Ruby Basarios",
+        "Gravios",
+        "Black Gravios",
+        "Brachydios",
+        "Nergigante",
+        "Glavenus",
+        "Bazelgeuse",
+        "Rathalos",
+        "Azure Rathalos",
+        "Pink Rathian",
+        "Dreadqueen Rathian",
+        "Kirin",
+        "Teostra",
+        "Kushala Daora",
+        "Velkhana",
+        "Hellblade Glavenus",
+        "Oroshi Kirin"
+      ]
+    }
+  },
+  {
+    "id": "594",
+    "geneName": "Potential Gene (S)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi"
+      ]
+    }
+  },
+  {
+    "id": "595",
+    "geneName": "Potential Gene (M)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "596",
+    "geneName": "Potential Gene (L)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "597",
+    "geneName": "Potential Gene (XL)",
+    "geneType": "Power Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "598",
+    "geneName": "Evasion Instinct Gene (S)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu"
+      ]
+    }
+  },
+  {
+    "id": "599",
+    "geneName": "Evasion Instinct Gene (M)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "600",
+    "geneName": "Evasion Instinct Gene (L)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "601",
+    "geneName": "Evasion Instinct Gene (XL)",
+    "geneType": "Speed Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gypceros",
+        "Tobi-Kadachi",
+        "Khezu",
+        "Red Khezu",
+        "Zinogre",
+        "Crimson Qurupeco",
+        "Lagiacrus",
+        "Ivory Lagiacrus",
+        "Astalos",
+        "Fulgur Anjanath",
+        "Thunderlord Zinogre",
+        "Rajang",
+        "Boltreaver Astalos"
+      ]
+    }
+  },
+  {
+    "id": "602",
+    "geneName": "Vigilance Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi"
+      ]
+    }
+  },
+  {
+    "id": "603",
+    "geneName": "Vigilance Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "604",
+    "geneName": "Vigilance Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "605",
+    "geneName": "Vigilance Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Ice",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Aptonoth",
+        "Rathian",
+        "Great Baggi",
+        "Deviljho",
+        "Stygian Zinogre",
+        "Molten Tigrex"
+      ]
+    }
+  },
+  {
+    "id": "606",
+    "geneName": "Partner Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth"
+      ]
+    }
+  },
+  {
+    "id": "607",
+    "geneName": "Partner Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "608",
+    "geneName": "Partner Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "609",
+    "geneName": "Partner Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "610",
+    "geneName": "Critical Healing Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth"
+      ]
+    }
+  },
+  {
+    "id": "611",
+    "geneName": "Critical Healing Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "612",
+    "geneName": "Critical Healing Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "613",
+    "geneName": "Critical Healing Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Dragon",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Royal Ludroth",
+        "Kecha Wacha",
+        "Barroth",
+        "Cephadrome",
+        "Mizutsune",
+        "Purple Ludroth",
+        "Soulseer Mizutsune"
+      ]
+    }
+  },
+  {
+    "id": "614",
+    "geneName": "Critical Kinship Gene (S)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth"
+      ]
+    }
+  },
+  {
+    "id": "615",
+    "geneName": "Critical Kinship Gene (M)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "616",
+    "geneName": "Critical Kinship Gene (L)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "617",
+    "geneName": "Critical Kinship Gene (XL)",
+    "geneType": "No Type",
+    "geneElement": "Thunder",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "618",
+    "geneName": "Fortify Gene (S)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth"
+      ]
+    }
+  },
+  {
+    "id": "619",
+    "geneName": "Fortify Gene (M)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "620",
+    "geneName": "Fortify Gene (L)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  },
+  {
+    "id": "621",
+    "geneName": "Fortify Gene (XL)",
+    "geneType": "Technical Type",
+    "geneElement": "Water",
+    "isActiveSkill": false,
+    "monsties": {
+      "fixed": [],
+      "random": [
+        "Popo",
+        "Zamtrios",
+        "Lagombi",
+        "Jade Barroth",
+        "Gammoth",
+        "Barioth",
+        "Legiana",
+        "Elderfrost Gammoth"
+      ]
+    }
+  }
+]
