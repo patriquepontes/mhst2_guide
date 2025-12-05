@@ -9270,9 +9270,8 @@
     ],
     "monster": {
       "attackPatterns": {
-        "DEFAULT": "technical",
-        "Enraged": "speed",
-        "Groomed": "power"
+        "DEFAULT": "speed",
+        "Enraged": "power"
       },
       "parts": {
         "DEFAULT": [
